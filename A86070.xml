@@ -1,0 +1,727 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discoverie of truth: presented to the sons of truth.</title>
+            <author>P. H.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1645</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 93 KB of XML-encoded text transcribed from 45 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A86070</idno>
+            <idno type="STC">Wing H103</idno>
+            <idno type="STC">Thomason E1176_1</idno>
+            <idno type="STC">ESTC R208086</idno>
+            <idno type="EEBO-CITATION">99867082</idno>
+            <idno type="PROQUEST">99867082</idno>
+            <idno type="VID">119372</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A86070)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 119372)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 167:E1176[1])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discoverie of truth: presented to the sons of truth.</title>
+                  <author>P. H.</author>
+               </titleStmt>
+               <extent>[6], 82 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.],</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>Printed in the yeer, 1645.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signed at end: P. H.</note>
+                  <note>Place of publication from Wing.</note>
+                  <note>Annotation on Thomason copy: "Ap: 17".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Truth --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:119372:1" rendition="simple:additions"/>
+            <p>A DISCOVERIE OF Truth: Preſented to the Sons of TRUTH.</p>
+            <q>
+               <bibl>
+                  <hi>1. Theſ. 5.21.</hi>
+               </bibl>
+               <p>Prove all things, hold faſt that whih is good.</p>
+            </q>
+            <q>
+               <bibl>
+                  <hi>Matth. 1.19.</hi>
+               </bibl>
+               <p>Wiſdome is juſtified of her children.</p>
+            </q>
+            <q>
+               <bibl>
+                  <hi>Pſal. 36.9.</hi>
+               </bibl>
+               <p>In thy light wee ſhall ſee light.</p>
+            </q>
+            <q>The truth is one, and never truly underſtood by any, till they be one with it.</q>
+            <p>Printed in the yeer, 1645.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:119372:2" rendition="simple:additions"/>
+            <pb facs="tcp:119372:2"/>
+            <head>To THE READER.</head>
+            <opener>
+               <salute>Curteous Reader;</salute>
+            </opener>
+            <p>IT is the property of ſouls poſ<g ref="char:EOLhyphen"/>ſeſſed with truth, accordingly as they are refreſhed by the diſ<g ref="char:EOLhyphen"/>coveries of it; ſo are they carried out to diſcover the ſame things to others, according to the Apoſtles words; We cannot chuſe but de<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lare the things which we have <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>een and heard, Acts 4.20. And <gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap>kewiſe (in 1 Joh. 1.3.) he ſaith, That which we have ſeen and <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eard, we declare to you; that ſo <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ou may have fellowſhip with
+<pb facs="tcp:119372:3"/>us. The ſame things may I ſpeak, I being deſirous to know ſome<g ref="char:EOLhyphen"/>thing of the difference betweene the Law and the Goſpell, and ſo to underſtand it in one; that ſo I might ſee them both to be one, as handed to us by Chriſt. My deſire of you (Chriſtian Reader) is, that you may rather by truth, endea<g ref="char:EOLhyphen"/>vour to ſee truth in it, then catch at any broken expreſsions you may gather from it: For it is ra<g ref="char:EOLhyphen"/>ther ſet forth to declare truth, then mans wiſedome: and ſo I leav<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> you to the truth deſiring that yo<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> by it, may be made able to judg<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of it.</p>
+            <closer>
+               <signed>T. T.</signed>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:119372:3"/>
+            <head>The places of Scripture which are anſwered in the following Treatiſe.</head>
+            <list>
+               <item>
+                  <label>JOHN <hi>14.4.</hi>
+                  </label> LEt not your hearts be troubled, ye beleeve in God, beleeve alſo in me.</item>
+               <item>
+                  <label>JOHN 14.6.</label> I am the way, the truth, and the life.</item>
+               <item>
+                  <label>JOHN 14.8.</label> And <hi>Philip</hi> ſaid, Lord ſhew us the Father, and it ſufficeth.</item>
+               <item>
+                  <label>REV. 21. latter part of the 9.</label> Come hither, and I will ſhew thee the Bride, the Lambes wife.</item>
+               <item>
+                  <label>ESAY 40. latter part of the 11.</label> And he ſhall gather the Lambes with his armes, and carry them in his boſome, and gently lead thoſe that are with young.</item>
+               <item>
+                  <label>REV. 16. beginning of the 19.</label> And the great City was divided into three parts.</item>
+               <item>
+                  <label>HOS. 10.12.</label> Sowe to your ſelves in righteouſneſſe, reape in mercie, break up your fallow grounds, for it
+<pb facs="tcp:119372:4"/>is time to ſeek the Lord, till he come and raigne righteouſneſſe upon you.</item>
+               <item>
+                  <label>JER. 4. latter end of the 3.</label> Break up your fallow grounds, and ſowe not amongſt thornes.</item>
+            </list>
+            <div n="2" type="part">
+               <head>In the ſecond part of this Treatiſe, theſe four Queſtions are anſwered.</head>
+               <p n="1">
+                  <hi>I.</hi> VVHether a Chriſtian is freed from the mo<g ref="char:EOLhyphen"/>rall Law, yea, or no?</p>
+               <p n="2">
+                  <hi>II.</hi> Whether a Chriſtian is to ſtrive againſt ſin, when tempted, yea or no?</p>
+               <p n="3">
+                  <hi>III.</hi> Whether Sanctification can evidence Iuſtifi<g ref="char:EOLhyphen"/>cation, when juſtification lies dark?</p>
+               <p n="4">
+                  <hi>IV.</hi> Vpon what ground a Christian may tender comfort to a ſoul, that ſees no goodneſſe in it ſelf?</p>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <div type="letter">
+               <pb n="1" facs="tcp:119372:4"/>
+               <head>A DISCOVERIE OF <hi>TR<g ref="char:V">Ʋ</g>TH:</hi> PRESENTED To the Sons of Truth.</head>
+               <p>
+                  <seg rend="decorInit">D</seg>Ear friends, I ſalute you in the Lord; rejoycing much to to heare the breath<g ref="char:EOLhyphen"/>ing of Chriſt by you. I ſhould re<g ref="char:EOLhyphen"/>joyce to have an opportunity to ex<g ref="char:EOLhyphen"/>change ſomethig of the language of Chriſt with you, face to face I have received your Letter, the ſum of which I conceive is this; that I, or rather Chriſt by me, would give you an anſwer of certain places of Scrip<g ref="char:EOLhyphen"/>ture thus.</p>
+               <pb n="2" facs="tcp:119372:5"/>
+               <p>Firſt, what I by the ſpirit of God do apprehend to be the mind of God in them. 2. What concluſions na<g ref="char:EOLhyphen"/>turally may be drawne from them. Which Scriptures, as you expreſſe in your Letter, ſeemes to contradict each other: ſome of them breathing forth the Goſpell, wherein all duties are ſweetly laid upon the power of life, given in by God; the other lay<g ref="char:EOLhyphen"/>ing duties upon the creature to get life from God. To which I anſwer, according to that light which God hath given in to me, ſo is he appre<g ref="char:EOLhyphen"/>hended by me, and according to that you ſhall have an anſwer from me.</p>
+               <p>For the Scripture,<note place="margin">Pſal. 36.9.</note> which is the word of God, none can underſtand but ſuch as live in God, and ſo receive the knowledge of his minde, not from the ſecond, but firſt hand, which is the priviliedge of the Saints; who know truth from falſhood, and that by living in truth: Now this word of God, which in<g ref="char:EOLhyphen"/>deed is God but as it is looked up<g ref="char:EOLhyphen"/>on by us, and given out to us, in
+<pb n="3" facs="tcp:119372:5"/>thoſe two things is the word conſi<g ref="char:EOLhyphen"/>dered, as Law and Goſpell, and if you look upon theſe not in God as God but as the word held out to us, then there is a difference, and that thus. We may deſcribe the law thus.<note place="margin">Deut. 4. Lev 18.5.</note> A declaration of duties holding forth life, not to be given to us, but wrought out by us. The Goſpell we may deſcribe thus; It is a tender of a full Chriſt, from a free God to a nothing creature, in which tender, God is pleaſed to give down life from himſelf, not onely to be held out to us, but alſo to be revealed in us. So that this light in us, really be<g ref="char:EOLhyphen"/>comes life for us,<note place="margin">Iohn 1.4 Rom. 8.3, 4 Ioh. 15.5.</note> to produce in us and act by us, what in the Law is re<g ref="char:EOLhyphen"/>quired of us; in which deſcription you may conſider theſe Corrolies.</p>
+               <p>Firſt, that the comming of Chriſt from God the father, to the ſonnes of men, was not the cauſe, but the effect of the love of God.<note place="margin">Ioh 3.16.</note>
+               </p>
+               <p>Secondly, whatſoever is required of us, or can be deſired by us, is to be found alone in Chriſt, as he is held out to us.</p>
+               <pb n="4" facs="tcp:119372:6"/>
+               <p>Thirdly,<note place="margin">Ezek. 16.4, 5, 6. Rom. 4.5. Rom. 5.8. Iohn. 14.6.</note> that the tender of Chriſt to us, is not to any qualification in us, or any good wrought by us.</p>
+               <p>Fourthly, it is Chriſt alone that Brings down life from God, and carries up the ſoul again to God.</p>
+               <p>Fifthly, what we gather from the ſuppoſition, in the deſcription is this; that the tender of Chriſt in a promiſe, which is the ſumme of the promiſe, Chriſt firſt receives us in the going forth of himſelf through the promiſe,<note place="margin">Ro 10 20.</note> before we re<g ref="char:EOLhyphen"/>ceive him in going out to the pro<g ref="char:EOLhyphen"/>miſe, and that is cleare from this ground: Becauſe we cannot go out to him, till we injoy a power from him, and wee never iujoy power from him, till we by the going forth of himſelfe, are laid hold on by him<g ref="char:EOLhyphen"/>ſelfe.</p>
+               <p>Deare friend, for the uſe of the Corolies, I leave to you, or rather the truth in you, which is able ſo to unfold it ſelfe, as to over<g ref="char:EOLhyphen"/>come your heart with it, and ſilence al diſputes of reaſon that is againſt it.</p>
+               <p>Now for the Law; to thoſe that
+<pb n="5" facs="tcp:119372:6"/>ſee it onely by a light that flowes from it, and not according to the rules of the Goſpell, it will not on<g ref="char:EOLhyphen"/>ly ſeem to be contrary to the Goſ<g ref="char:EOLhyphen"/>pel, but will cauſe the beholder to convert the Goſpell into Law, and preach the Goſpell as Law, and that one Element where Antichriſt lives. And that is the reaſon why wee have ſo many men in theſe daies that preach, and preſſe men to make bricke without ſtraw. But paſſing, over that, the Law I muſt confeſſe, is not looked upon directly from the Goſpell, by rules of the Goſpell, which darkens to us, both the Law and Goſpel: But we are to conſider the law thus, that the Law is, that wherein God diſcovers his authority as a God over us, requiring duties of us; and although wee have loſt that ability to anſwer Law, yet the Law continues to declare Gods au<g ref="char:EOLhyphen"/>thority, but not our ability. And for ſuch expreſsions, in the word, you muſt work, yon muſt doe this and that; it is not to declare our a<g ref="char:EOLhyphen"/>bilitie<g ref="char:punc">▪</g> but left to declare Gods
+<pb n="6" facs="tcp:119372:7"/>authoritie, and this is the firſt rule to judge of the expreſſion of the Law, ſo as they may not contradict the Goſpell.</p>
+               <p>
+                  <hi>Object.</hi> This ſeems not to be a truth, becauſe that ſuch expreſſions in Scripture are not few but many, it is not onely at one time but often; to which I anſwer.</p>
+               <p>
+                  <hi>Anſwer.</hi> Had God withdrawn and made out theſe diſcoveries, which manifeſt his authoritie, it would have been conceived, that when there was an alteration in the creature, that this alteration wrought an alteration in God; And ſo it might be apprehended, that ſome thing below God, had the power to cauſe an alteration or change in God; which the Holy Ghoſt will by no expreſſion admit of ſuch a con<g ref="char:EOLhyphen"/>ſtruction.</p>
+               <p>
+                  <hi>Second Rule.</hi> God was pleaſed from his infinite love, to give a Chriſt, not onely to fulfill the Law for us,<note place="margin">2 Cor. 3.15.18. Heb. 12.18.22.</note> but alſo to be a light; as in us, ſo alſo a light held out to us, in which light we are to ſee the Law:
+<pb n="7" facs="tcp:119372:7"/>For we are not now to ſee the Law in the valid light of <hi>Moſes,</hi> but in the uncovering light of Chriſt; and if you thus ſee the Law, you ſhall ſee that which in the hand of <hi>Moſes</hi> was required to get life; in this light of Chriſt you ſhall ſee it held out, as actions to be done by, or as begotten of life; in the other, to work that we may be loved, here to work, in that we are beloved; and this preſents the Law lovely.</p>
+               <p>For dear friend know this, that nothing is injoyrd by us as it is in its ſelf, unleſſe it be apprehended by a light ſutable to it ſelf; for if wee looke upon a white object through a red glaſſe, the object is not white to us as it is in its ſelfe, but red accor<g ref="char:EOLhyphen"/>ding to the light through which it is apprehended by us. So God in the law, if judged by the bare ex<g ref="char:EOLhyphen"/>preſſions of the Law, and not in the light of love, he appeares rough and not lovely; but when we being led forth, by Chriſt, and ſweetly gathe<g ref="char:EOLhyphen"/>red up in Chriſt, and there ſee the Law, wee ſhall then ſee the Law
+<pb n="8" facs="tcp:119372:8"/>lovely;<note place="margin">Rom. 7.12.</note> and ſay as the Apoſtle, the Law is holy, iuſt, and good. And ſo we ſhall not ſee ſuch a contradiction betweext the Law and Goſpell.</p>
+               <p>When we thus ſee truth in truth, we ſhall then ſee an one-neſſe be<g ref="char:EOLhyphen"/>twixt truth, or rather the truth to one, and that onely one; which was which is, which ſhall be.</p>
+               <p>But I ſay no more of the Law, but come to give an anſwer to your Scripture in particular; according to your deſire.</p>
+               <p>And firſt of the firſt; being the 14. of John and the firſt:</p>
+               <p>
+                  <hi>Let not your hearts he troubled, ye beleeve in God, beleeve alſo in me.</hi>
+               </p>
+               <p>In which Scripture, in generall it holds forth theſe two things.</p>
+               <p>Firſt, a dehortation; Let not your hearts be troubled.</p>
+               <p>Secondly, a direction; Yea, be<g ref="char:EOLhyphen"/>leeve in God, beleeve alſo in me: But that wee may underſtand the meaning of the words, before we come to draw concluſions, conſider theſe things:</p>
+               <pb n="9" facs="tcp:119372:8"/>
+               <p>Firſt, the party ſpeaking; Chriſt.</p>
+               <p>Secondly, his ends of his thus ſpeaking, which was this; he being to depart from them in his bodily preſence, and knowing what evill diſpoſition there was in them, knew well at his departure they would be full of feares, through much trouble, and ſo ſin againſt God.</p>
+               <p>
+                  <hi>Doct.</hi> The Doctrine from thence obſerved is this, that it was the way of Chriſts care in all his teach<g ref="char:EOLhyphen"/>ings, to keep his Diſciples from ſin-full fear,<note place="margin">Ioh
+16.33 Luk. 12. Luk. 1 74.</note> contrary to ſome mens teaching now, which preach obe<g ref="char:EOLhyphen"/>dience to be drawn forth from the terrours of a Law, and not from the power of love; which teaching produces directly ſuch effects as theſe.</p>
+               <p>Firſt, it rather drives men from God, then drawes men to God, for men are drawn to love, onely by love, and God is love.</p>
+               <p>Secondly, the creature to help it ſelf, rather ſets upon that which is properly the work of God, then for it to worke from a power of
+<pb n="10" facs="tcp:119372:9"/>GOD, ſeeing all come from GOD.</p>
+               <p>Thirdly, Such teaching teach men rather to live upon the creature then GOD; which wee doe, firſt, when we live upon the actings of God to us; and ſecondly when we live upon the acts of God in us, to<g ref="char:EOLhyphen"/>wards himſelf; This condition is full of feare, and whether this be a ſinfull feare ye or no, I leave you to judge, which I hope have other waies learned Chriſt; And ſo much of the party ſpeaking, with the end of his ſpeaking: Now of the matter ſpoke, and firſt, of the dehortation, <hi>Let not your hearts be troubled:</hi> The na<g ref="char:EOLhyphen"/>ture of a dehortation implies ſin, and in this do not onely conſider the de<g ref="char:EOLhyphen"/>hortation, but the parties dehorted, which was the Diſciples that were poſſeſſed with Chriſt,<note place="margin">Luk. 8.24 25. Mat
+6.30.</note> from whence obſerve their concluſion; That not onely other, but even the members of Chriſt, through want of knowledge of Chriſt, are apt to be troubled with ſuch a trouble, that is condemned by Chriſt; I ſhall ſpeak
+<pb n="11" facs="tcp:119372:9"/>nothing of that trouble which is lawfull and approved of by Chriſt, nor of that trouble which is ſinfull and contrary to Chriſt, becauſe I have ſpoken of it in the concluſion before; only from one terme in this concluſion, I will draw one Corro<g ref="char:EOLhyphen"/>larie, that is this, that all trouble that is a ſin againſt Chriſt, doth di<g ref="char:EOLhyphen"/>rectly ariſe from ignorance of Chriſt,<note place="margin">Mat. 16.8, 9, 11.</note> and ſo much of the dehor<g ref="char:EOLhyphen"/>tation.</p>
+               <p>For the direction, <hi>Yee beleve in God, beleeve alſo in me:</hi>
+               </p>
+               <p>Firſt, <hi>Ye beleeve in God;</hi> in which words is not onely a direction but an acknowledgement, ye beleeve in God, implying thus much: which ſhall be as a concluſion from the words, which is this, that be<g ref="char:EOLhyphen"/>leeving in God is the onely way to remove ſinfull trouble from the hearts of the people of God: Sin<g ref="char:EOLhyphen"/>full trouble ariſeth in us, from the not living upon God: but from a living upon ſome thing below God; now ſo ſoone, and ſo far as a man hath power from God, to beleeve
+<pb n="12" facs="tcp:119372:10"/>in God, ſo ſoone, and ſo far is he really taken up in God, and from thence made able to live upon God; now becauſe it is not a bare belee<g ref="char:EOLhyphen"/>ving, but a believing rightly rectified, Chriſt ads this expreſſion, ye <hi>beleeve in God, beleeve alſo in me.</hi> Before we draw any thing from theſe words, we will firſt conſider the meaning of them, when he ſaith beleeve in God, beleeve in me, not that he intends God one object of faith, and him<g ref="char:EOLhyphen"/>ſelfe another, as being two, for they are one; Therefore he ſaith in that ſame Chapter, <hi>He that hath ſeen me, hath ſeen the Father,</hi> therefore I conceive the meaning of the place to be thus; Ye <hi>beleeve in God, beleeve alſo in me:</hi> That is, beleeve in God as he is held out in me; the conclu<g ref="char:EOLhyphen"/>ſion from thence is this, that that faith which is the way of God to remove ſinfull troubles from the Spirits of the people of God,<note place="margin">2 Cor.
+5.19. Ioh. 17.3. 2 Cor. 3.18. 1. Iohn 5.20.</note> is not a bare beleeving of God, but a be<g ref="char:EOLhyphen"/>leeving in God, as he is held out in his Son Chriſt: The Devills be<g ref="char:EOLhyphen"/>leeve, and tremble, the truth hath a
+<pb n="13" facs="tcp:119372:10"/>power and authority in it ſelfe, preſented to men to ſubject their ſpirits and overturne the reaſons of men, that they are ſo carried out to aſſent to truth, that they are made to accknowledge Truth to be Truth.</p>
+               <p>So <hi>Simon Magus</hi> and <hi>Iudas,</hi> &amp;c.</p>
+               <p>This faith men may have, and go to hell,<note place="margin">Apo. 18.13. Iam. 19.</note> this faith though it carries men to aſſent to truth, yet it never gives men to live in truth: nor gives men power from muth, to live an<g ref="char:EOLhyphen"/>ſwerable to truth; but this faith which is beleeved in God, held out in his Son Chriſt is a Goſpell faith<g ref="char:punc">▪</g> Such a faith,<note place="margin">Heb.
+11.1</note> the life of which, belee<g ref="char:EOLhyphen"/>ving in Chriſt is the very excellency and glory of the Godhead held out by Chriſt: and may bee thus de<g ref="char:EOLhyphen"/>ſcribed.</p>
+               <p n="1">1. It is for a ſoule by the ſuper<g ref="char:EOLhyphen"/>naturall comming in of God to en<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oy a ſupernaturall light from him: by which the ſoule is made able to ſee a ſufficiencie in him to ſupplie all its wants, carrying with it a con<g ref="char:EOLhyphen"/>ſent
+<pb n="14" facs="tcp:119372:11"/>of will. from which deſcripti<g ref="char:EOLhyphen"/>on we may draw theſe corrolies.</p>
+               <p>Firſt, that the life of beleeving in Chriſt is not onely of Chriſt, but is really in Chriſt, but is really the ex<g ref="char:EOLhyphen"/>cellencie that is in Chriſt, which is the matter, or obiect of faith, be<g ref="char:EOLhyphen"/>leeved by all that are poſſeſt with Chriſt, but I ſpeak this to ſhew what a ſweet union there is be<g ref="char:EOLhyphen"/>tweene the object and the joy.</p>
+               <p>☞ Second corolarie, that power that produceth faith, is not the bare diſcoveries of God in Chriſt to us: But it is by a ſupernaturall and di<g ref="char:EOLhyphen"/>vine revelation and diſcoverie of Chriſt in us: I ſpeak this for this cauſe, to ſhew that truth doth and muſt take hold of us before it can be truely beleeved by us.</p>
+               <p>Thrirdly, that ſoule that truely by faith ſees Chriſt, ſees ſuch tranſcen<g ref="char:EOLhyphen"/>dent and matchleſſe excellencie in Chriſt,<note place="margin">Can. 5.10 to 16. Cant. 2.3. Pſa.
+110.3</note> that he is ſo overcome by it, that he is by the vertue of it volun<g ref="char:EOLhyphen"/>tarily carried out, to conſent and ſubmit to it. And this is the cauſe, why ſoules when once they come
+<pb n="15" facs="tcp:119372:11"/>to ſee Chriſt, they ſee nothing love<g ref="char:EOLhyphen"/>ly like Chriſt.</p>
+               <p>Secondly, that is the cauſe and reaſon why ſoules delight and love to live in thoſe ſweet beams of love, which ſweetly runs forth from God through Chriſt, which is not onely light to them, but life in them;<note place="margin">Iohn 1.4 Gal. 2.20</note> dear friend, for the uſes of the concluſi<g ref="char:EOLhyphen"/>ons, I ſhall leave to you, and ſo much in anſwer to this place of Scrip<g ref="char:EOLhyphen"/>ture.</p>
+               <p>Now the next Scripture being John 14.6, 7, 8. The words being thus: <hi>Ieſus ſaith to him, I am the way, the truth, and the life, no man commeth to the Father but by mee; Philip</hi> ſaith to him, <hi>Lord ſhew us the Father and it ſufficeth ut.</hi>
+               </p>
+               <p>Firſt, of the ſixth verſe, in which words we may conſider an anſwer, to a querie, Chriſt ſpeaking in the fourth verſe, ſaying, whether I go ye know, and the way ye know.
+<hi>Thomas</hi> anſwereth in the fifth verſe, we know not whither thou goeſt, and how can we know the way? This ſeems to be a Paradoxe, Chriſt
+<pb n="16" facs="tcp:119372:12"/>affirming the thing, and yet <hi>Thomas</hi> denying it.</p>
+               <p>
+                  <hi>Doct.</hi> Thence we may obſerve this concluſion, it is one thing to know, and another to know that we know.</p>
+               <p>The ſecond concluſion is, that Chriſt may know that in us, and for as, that we do not, cannot know, in nor for our ſelves; I ſpeak this for theſe ends.</p>
+               <p>Firſt, to ſhew it is a greater thing, and a higher priviledge to bee known of Chriſt, then to know Chriſt.</p>
+               <p>Secondly, it ſhould teach us to live, not upon our knowing, but upon our being known of Chriſt:<note place="margin">Hoſ. 11.3.</note> He that lives upon his knowing, and not upon the thing knowne, hee lives upon the Streames, but not in the Fountain; upon the beams, but not in the body; ſuch a man may have his diſcoveries of divine things preſented to him, but he hath little of the marrow of thoſe divine mer<g ref="char:EOLhyphen"/>cies injoyed in him: and now I come to the words themſelves: <hi>I am
+<pb n="17" facs="tcp:119372:12"/>the way, the truth and the life: No man comes to the Father but by me:</hi> In which words you may conſider a ſweet diſcoverie of that divine Ex<g ref="char:EOLhyphen"/>cellencie and ſufficience that is in Chriſt. To ſpeak plainely, theſe words hold out;</p>
+               <p>Firſt, all that can be ſaid concer<g ref="char:EOLhyphen"/>ning the giving downe of the Di<g ref="char:EOLhyphen"/>vine and ſweet Excellencies of God through Chriſt to us.</p>
+               <p>And ſecondly, all that can be ſaid of the ſweet bringing up of a ſoul from the comming in of GOD through Chriſt to us.</p>
+               <p>And this is clearly held forth in theſe words, where he ſaith; <hi>I am the way, the truth, and the life.</hi> I am the way that God gives down him<g ref="char:EOLhyphen"/>ſelf to you, and reveals all that is in himſelf for you; and I am the way through which you are given up to God, and through whch you have ſweet records and Communion with God, and in which you are made able ſweetly to ſee (as in an open glaſſe) the divine unfoldings of Gods boſome ſecrets, I meane
+<pb n="18" facs="tcp:119372:13"/>the myſterie of his minde, ſo that a ſoule is minded ſweetly with the minde of God; from which words thus paraphrased on, we may ob<g ref="char:EOLhyphen"/>ſerve theſe brief concluſions.</p>
+               <p>
+                  <hi>Doct.</hi> Firſt,<note place="margin">Coll. 2.9. 2 Cor. 3.18. Col. 2.9.</note> that God doth no way give down himſelf to us, as he is in himſelf; but through Chriſt, whom was for that end ordained; by himſelf, he is a ſutable light to pre<g ref="char:EOLhyphen"/>ſent ſuch an object. If this be ſo, what ſhall we think of thoſe that have found out other ways to bring down God to the creature, under the ſame conſideration before ſpo<g ref="char:EOLhyphen"/>ken of? Not to ſpeak of the dead way of nature, nor much of the dark way of the Law; but alſo of ſome guilded path, and wayes of the Go<g ref="char:EOLhyphen"/>ſpell, which men do by uſing ſome expreſſions of the Goſpell; do en<g ref="char:EOLhyphen"/>deavour to make a conjunction of Law and Goſpell, as one way to bring down God. Nay men have an art in theſe times, to turne the very effects produced by God, they go about to make them cauſes to cauſe an alteration in God: My mea<g ref="char:EOLhyphen"/>ning
+<pb n="19" facs="tcp:119372:13"/>is this, that even prayer and faſting, which in Gods way I much priſe.</p>
+               <p>Which if true, is alone produced by a power from God; the end is, to fit and alter us and not God. Men now a dayes make theſe meanes, as a way to tye and conſtraine GOD, to alter and to change GOD; O monſtrous, I deſire to love the work but abhor the way.</p>
+               <p>
+                  <hi>Objeſt.</hi> Surely this faſting you ſpeak of, is not ſo as you ſay, but muſt needs be true faſting and pray<g ref="char:EOLhyphen"/>ing, and that for this cauſe; becauſe We have ſo many anſwers after one faſting and praying, of our deſires in them.</p>
+               <p>
+                  <hi>Anſw.</hi> To which I anſwer, if it be ſo, bleſſe God; and I deſire to do the ſame. But if you judge of the truth of faſting and prayer, by an anſwer after it, and not by a right performing of it, then what diffe<g ref="char:EOLhyphen"/>rence is there I pray you, betwixt the Faſt of
+<hi>David,</hi> and the Faſt of <hi>Ahab?</hi> But I ſay no more of this thing.</p>
+               <pb n="20" facs="tcp:119372:14"/>
+               <p>
+                  <hi>Doct.</hi> The ſecond concluſion from this firſt thing is this,<note place="margin">Ioh.
+6 44.</note> that no ſoul does or can give himſelf up to God, till he enjoys power from the ſweet giving downe of GOD to him through his Sonne Chriſt; There may as well be reflections of the beames of a Sunne without a Sunne, as returnes to God without the en<g ref="char:EOLhyphen"/>joyment of God; then things act really to its proper end, when they act not only from but in their own Element. But what it is to love from the ſtrength of love, and to act living acts, to a living end, from the diſtil<g ref="char:EOLhyphen"/>ling of a living power, I leave you to judge, whom I hope lives in thoſe ſweet ſtreams? Whoſe ſpirit is fild by living under the drops of that divine fountain.</p>
+               <p>
+                  <hi>Doct.</hi> The third concluſion, that we ſee nothing truly in God, nor have no reall communion with God, but that which we ſee and injoy in Chriſt as the way; And ſo much of this firſt thing; <hi>I am the way.</hi>
+               </p>
+               <p>He ſaith alſo, <hi>I am the Truth;</hi>
+                  <pb n="21" facs="tcp:119372:14"/>Chriſt, may be ſaid to be truth theſe waves;</p>
+               <p>Firſt, in that he is the cauſe, de<g ref="char:EOLhyphen"/>claring truth.</p>
+               <p>Secondly, he is the object or mat<g ref="char:EOLhyphen"/>ter declared by truth; for all the Prophets writ of him; for all the Propheſies, and promiſes, pointed at him.</p>
+               <p>Thirdly, he is not only ſo truth, but he is truth eſſentially; For God was the Word, and the Word was God. He faith he is alſo life, that hereby he may appear to be as he is, all in all.</p>
+               <p>There is but three things eſſen<g ref="char:EOLhyphen"/>tiall in a mans way.</p>
+               <p>Firſt, a way to walk in.</p>
+               <p>Secondly, a light of truth to diſ<g ref="char:EOLhyphen"/>cover the way.</p>
+               <p>Thirdly, a power to carry us on in the way, or elſe you muſt lye ſtill. So by this you may ſee, that Chriſt is all in all to a Chriſtian ſoul. For we are by Chriſt in Chriſt carried out to Chriſt, he being the way to God, and the truth that diſcovers God; and alſo the life that carries
+<pb n="22" facs="tcp:119372:15"/>you on according to the truth diſco<g ref="char:EOLhyphen"/>vered to God in that way.</p>
+               <p>
+                  <hi>Doct.</hi> And therefore the conclu<g ref="char:EOLhyphen"/>ſions from all this,<note place="margin">1 Cro 1.30. 1 Cro. 3.22.</note> is this; That Chriſt is all in all to a chriſtian ſoul, he is all in them, all to them, all for them.</p>
+               <p>The uſe of this ſhould teach us;</p>
+               <p>Firſt, to ſee all in him.</p>
+               <p>Secondly, to look for all from him.</p>
+               <p>Thirdly, to teach us to give all to him,</p>
+               <p>Now for the next words, where<g ref="char:EOLhyphen"/>in Chriſt ſaith, <hi>No man commeth to the Father but but by me;</hi> This is but an explication of, the former words, and the ſame concluſion does natu<g ref="char:EOLhyphen"/>rally ariſe from it, which was this; That we ſee nothing truly in God, nor have no reall communion with God, but that which we ſee and en<g ref="char:EOLhyphen"/>joy in Chriſt, as the way; and I ſhall ſay no more of this concluſion, nor of this verſe.</p>
+               <p>Now I ſhall ſpeak a word or two of the eight verſe, where <hi>Philip</hi> ſaid, <hi>Shew us the Father, and it ſuf<g ref="char:EOLhyphen"/>ficeth
+<pb n="23" facs="tcp:119372:15"/>us;</hi> In which words in gene<g ref="char:EOLhyphen"/>rall, is diſcovered theſe two things.</p>
+               <p>Firſt, a manifeſtation of a great de<g ref="char:EOLhyphen"/>ſire, in theſe words; Shew us the Father.</p>
+               <p>Secondly, the reaſons or grounds of this deſire. Firſt, he is a Father; Secondly, the knowledge of him is a ſatisfying good, in theſe words; <hi>and it ſufficeth us.</hi>
+               </p>
+               <p>In the deſire, conſider firſt the party deſiring, with the ſpeciall oc<g ref="char:EOLhyphen"/>caſion producing that deſire, which was the ſweet manifeſtations of God by Chriſt, how he was to be under<g ref="char:EOLhyphen"/>ſtood as held out in Chriſt. The per<g ref="char:EOLhyphen"/>ſon deſiring, was a ſoul poſſeſſed with God, from whence obſerve this concluſion.</p>
+               <p>That the diſcoveries of God by Chriſt,<note place="margin">
+                     <hi>Doctr.</hi> Cant 5.4,
+5,16.</note> do abundantly inlarge and take up the heart and deſires of that ſoule, that is really poſſeſſed with God, as he gives forth himſelfe through Chriſt.</p>
+               <p>Every-thing loves to live in its owne light; God is the light of a ſoul poſſeſſed with himſelf.</p>
+               <pb n="24" facs="tcp:119372:16"/>
+               <p>Secondly, every thing loves, and in love is moſt inlarged to its owne center; but the foul which is poſſeſ<g ref="char:EOLhyphen"/>ſed with God, is by him really cen<g ref="char:EOLhyphen"/>tred in him.</p>
+               <p>Thirdly, nothing ſtirs up a thing, or inlarges the deſire of a thing, ſo much as that which is the onely ſu<g ref="char:EOLhyphen"/>table good to the thing: but that ſoul that is poſſeſſed with God, and the life of the joy in the ſoul really flowes from God, nothing is ſo ſu<g ref="char:EOLhyphen"/>table good to that joy, as the unfold<g ref="char:EOLhyphen"/>ing of God himſelf.</p>
+               <p>Fourthly; men are carried out moſt ſweetly and ſwiftly to that they apprehend moſt lovely. But that ſoul that underſtands the un<g ref="char:EOLhyphen"/>folding of God, from being really poſſeſſed with God, ſees nothing ſo lovely as God himſelf, as he is held out in his ſonne Chriſt. I ſay no more of this concluſion.</p>
+               <p>Secondly, in the deſire, you may obſerve, the matter deſired ſhewes the thing deſired was to ſee God; hence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That the manifeſtations of
+<pb n="25" facs="tcp:119372:16"/>God in the way of the Goſpell,<note place="margin">Iohn 4.10 Iohn 4.41</note> is a very deſirable thing, and they that know it will deſire after it: From the termes of the concluſion you may obſerve this;</p>
+               <p>That the ſight of God is an ob<g ref="char:EOLhyphen"/>ject worth viewing.</p>
+               <p>Secondly, the Goſpell is the one<g ref="char:EOLhyphen"/>ly way to ſee God in the objects of love.</p>
+               <p>Thirdly, that no ſoul can truly deſire God in the way of the Go<g ref="char:EOLhyphen"/>ſpell, till he by him has a knowledge of him.</p>
+               <p>Fourthly, that ſoul that ever had a reall knowledge of God, can be ſatisfied by ſeeing nothing but God: And ſo much of that concluſion.</p>
+               <p>Thirdly, we are to conſider not onely the thing deſired, but the ex<g ref="char:EOLhyphen"/>tent of the deſire; Shew us. <hi>Philip</hi> did not onely deſire it for himſelfe, but for others as well as himſelfe: Thence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That thoſe deſires that run forth to God, and really flow from God, are not deſires limited within a mans own breaſt, but extends it
+<pb n="26" facs="tcp:119372:17"/>ſelf for the good of others, as for it ſelf. That life which is given out to us and produces deſires in us, doth really produce a ſelf-divi<g ref="char:EOLhyphen"/>ding power in us: That is the cauſe why Chriſtians are ſo free in their deſires for others, and in their diſcoveries to others what is diſco<g ref="char:EOLhyphen"/>vered in them.</p>
+               <p>Streams that flow from the foun<g ref="char:EOLhyphen"/>tain as their center, need not have ſecondarie cauſes to carry them to their center again, for they natural<g ref="char:EOLhyphen"/>ly run into it, being really, one with it: So it is with Chriſtians, they ſtand hot in need to have ſomething put in their mouthes in a ſecondary way:<note place="margin">Mich. 3.5.</note> Like thoſe Prieſts in <hi>Micah,</hi> whom unleſſe you put ſomething in their mouthes will bite: Or like ſome, whom when they hear that there is an opportunity to preach Chriſt to creatures, they preſently demand what they ſhall have from the creature? And if they can have more from the one then from the other, their deſires is taken off from the leaſt to the moſt, though there
+<pb n="27" facs="tcp:119372:17"/>is moſt need where there is leſt: it is to be feared, that it is not the need of the man, but the love of the meanes and mony that carries him. It is not ſo with ſoules poſſeſſed with Chriſt, whoſe deſires run out for o<g ref="char:EOLhyphen"/>thers as well as for it ſelf, in a ſelf<g ref="char:EOLhyphen"/>denying way, they cannot chuſe but breathe forth to others what Chriſt breaths forth in them: So much of that concluſion.</p>
+               <p>Fourthly, conſider the object of their dſires, or the perſon of whom they deſire, which was Jeſus Chriſt, in theſe words; Lord ſhew us. The concluſion from thence is this.</p>
+               <p>
+                  <hi>Doct.</hi> That it is the ſole work of Jeſus Chriſt,<note place="margin">Mat.
+12.27.</note> to reveale God the Fa<g ref="char:EOLhyphen"/>ther to the ſons of men: Hee alone was deſigned of God the Father for that end.</p>
+               <p>Secondly, none can truly and ful<g ref="char:EOLhyphen"/>ly diſcover God, but thoſe who tru<g ref="char:EOLhyphen"/>ly and fully know God; but no man truly and fully knowes God in the firſt ſence, but the Lord Chriſt: <hi>Ergo,</hi> none can make known God the Father to the ſonns of men but
+<pb n="28" facs="tcp:119372:18"/>Chriſt: Beſides, if you conſider what the true knowledge of God the Father, is through the teaching of the Sonne, the very nature of that deſcription will confirme this do<g ref="char:EOLhyphen"/>ctrine.</p>
+               <p>Firſt, we will ſhow you what this knowledge is not.</p>
+               <p>Firſt, not a naturall light of ſeeing God, wherein reaſon in apprehend<g ref="char:EOLhyphen"/>ing doth ſo comprehend, that rea<g ref="char:EOLhyphen"/>ſon is the proper judge of what is apprehended.</p>
+               <p>Nor ſecondly, do we intend a le<g ref="char:EOLhyphen"/>gall knowledge, which light flowes from the Law; wherein the ſoul is made able to ſee God, as a God o<g ref="char:EOLhyphen"/>ver him, but hot as a God for him, unleſſe they be for him.</p>
+               <p>Nor thirdly, we do not intend a goſpel knowledge in a notionary way; by that I mean, mens run<g ref="char:EOLhyphen"/>ning out to fetch in notions of the truth, and are not fetcht in by the power of the truth, and ſo they ra<g ref="char:EOLhyphen"/>ther carry notions of truth then the power of truth carries them: And that is the cauſe why ſome walke
+<pb n="29" facs="tcp:119372:18"/>looſely in, the profeſſion of the go<g ref="char:EOLhyphen"/>ſpell, which is a matter of great grief. But men do exceeding ill in laying theſe ſcandals upon the truth, and not diſtinguiſh profeſ<g ref="char:EOLhyphen"/>ſors from poſſeſſors of truth.</p>
+               <p>But to give you a deſcription of the true knowledge of God through Chriſt, we may deſcribe it thus;</p>
+               <p>It is a ſupernaturall light ſet up in the ſoule by God, the life of which light hath his reſidence in God, the actings of which light is all together for God.</p>
+               <p>From whence you may obſerve theſe corolies.</p>
+               <p>The firſt is this, that all means,<note place="margin">Mat 11.27.</note> nay the perfection of all things be<g ref="char:EOLhyphen"/>low God, cannot bring a naturall man ſpiritually to underſtand God, for it is produced by a ſupernaturall light, ſet up in the ſoul; from that word ſet up in the ſoul, you may obſerve this corolie.</p>
+               <p>That that ſoul that really under<g ref="char:EOLhyphen"/>ſtands truth from being poſſeſſed with truth,<note place="margin">Iohn 3.29.30. phil. 4.8.</note> nothing in that ſoul is exalted above truth.</p>
+               <pb n="30" facs="tcp:119372:19"/>
+               <p>Then from this word,<note place="margin">Pſa. 21.13</note> ſet up in ſoul by God; from whence you may obſerve this corolie:</p>
+               <p>It is alone the power of God that exalts truth. And from this expreſ<g ref="char:EOLhyphen"/>ſion, the life of which light hath his reſidence in God; obſerve this corolie.</p>
+               <p>That ſoul that truly knowes God from the commings in of God, that light is really maintained by a life that is in God.<note place="margin">Col 3.3. Cant. 4.16<g ref="char:punc">▪</g>
+                  </note> Then from this word, the actings of which light is altogether for God; thence obſerve this corolie.</p>
+               <p>That all true light that flowes from God doth ſweely carry out a ſoul,<note place="margin">Ioh. 1.2, 4, 5. Gal. 1.16.</note> in every act to live to God: the light of knowing is the life of con<g ref="char:EOLhyphen"/>forming, and ſo much of that con<g ref="char:EOLhyphen"/>cluſion.</p>
+               <p>The next thing is the matter de<g ref="char:EOLhyphen"/>ſired, <hi>Shew us thy Father.</hi> Whence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> To ſee God as a father,<note place="margin">Eſa. 63.16</note> is that which is very deſirable; that is the way that God preſents him<g ref="char:EOLhyphen"/>ſelfe through Chriſt to the ſonnes
+<pb n="31" facs="tcp:119372:19"/>of men, to draw forth love in them to himſelfe. It is the very tenor of the goſpel, thus to preſent God, and thus to ſee GOD. It is a relation that upohlds and indeers more then any: it remove feares, and con<g ref="char:EOLhyphen"/>firmes faith: we are not to preſent this relation in the goſpell to be be<g ref="char:EOLhyphen"/>gotten by obedience, but to beget obedience; but no more of this con<g ref="char:EOLhyphen"/>cluſion.</p>
+               <p>The laſt thing is the reaſon; <hi>and it ſufficeth us.</hi> Where you may not onely ſee the reaſon, <hi>it ſufficeth;</hi> but the extent of it, it ſufficeth us: Thence obſerve theſe two concluſi<g ref="char:EOLhyphen"/>ons.</p>
+               <p>
+                  <hi>Doct.</hi> Firſt, it is a ſatisfying good to a ſoul poſſeſſed with GOD,<note place="margin">Pſal. 4.6, 7. Pſ. 17.15.</note> to ſee GOD; ſuch a ſoule as he lives and ſo ſees, ſo alſo he lives by ſeeing, and ſo far as he ſees GOD, ſo far he re<g ref="char:EOLhyphen"/>really enioyes what he ſees, and in the inioyment can ſee nothing like it. And as <hi>Iacobs</hi> ſheep, who was made to conceive by a ſight of the ſpeckled rods in the Troffes where they drank; ſo Beleevers who are <gap reason="illegible: missing" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <pb n="32" facs="tcp:119372:20"/>forth to drink of theſe ſtill waters, which are to refreſh the City of God, and in them ſee the beautie and ſweetneſſe of God, and imme<g ref="char:EOLhyphen"/>deiatly conceive and bring forth fruit ſutable to God. It is reported that the Dove is made fruitfull by kiſſing, but I am ſure that Beleevers who are called Doves By Chriſt, by the leſt kiſſe of the mouth of Chriſt, are made preſently to returne re<g ref="char:EOLhyphen"/>flections of love to Chriſt: My belo<g ref="char:EOLhyphen"/>ved is mine, and I am his. No more of this concluſion.</p>
+               <p>And from theſe words not onely ſatisfie, but ſaisfie us, you may ſee;</p>
+               <p>As before the deſire of <hi>Philip,</hi> that others as well as himſelfe might ſee God; ſo in this place you may ſee his faith and knowledge in this word; <hi>It will ſatiſfie us.</hi> Thence obſerue this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That thoſe that are acquain<g ref="char:EOLhyphen"/>ted with the effects of the truth in themſelves, can alſo judge what ſatisfaction other enjoy from truth as well as themſelves, that live in the ſame truth with themſelves.
+<pb n="33" facs="tcp:119372:20"/>But I ſhall ſpeak no more of this concluſion nor of this verſe.</p>
+               <p>The next Scripture is in the 21 of the Revelation, and the latter end of the ninth verſe,
+<hi>Come hither and I will ſhew thee the bride, the Lambes wife;</hi> The Revelation holds forth two things:</p>
+               <p>Firſt, a diſcoverie of Chriſt;</p>
+               <p>Secondly, a diſcoverie of Anti<g ref="char:EOLhyphen"/>chriſt.</p>
+               <p>Firſt, of Chriſt, and that in theſe things; in the ſweet excellencie of himſelfe.</p>
+               <p>Secondly, the neer oneneſſe the Saints have with himſelfe.</p>
+               <p>Thirdly,<note place="margin">Reve. 1.13, 14, 15 16. &amp; 5.12. &amp; 9.7. &amp; 12.9. &amp; 13.1,
+2. &amp; 13<g ref="char:punc">▪</g> 4, 5, 6, 7, 8 and 18.2.</note> the great victorie and priviledges the Saints have by Chriſt.</p>
+               <p>Secondly, the diſcoverie of Anti<g ref="char:EOLhyphen"/>chriſt is held out in three things:
+<list>
+                     <item>Firſt, in his Riſe.</item>
+                     <item>Secondly, in his Reigne.</item>
+                     <item>Thirdly, in his Ruine.</item>
+                  </list>
+               </p>
+               <p>The diſcoverie of Chriſt in the laſt thing, which is the priviledge; the victory, and the deliverance the Saints have by Chriſt, is ſweetly
+<pb n="34" facs="tcp:119372:21"/>held forth in t<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eſe words;
+<hi>Come hither and I will ſhew thee the Bride the Lambes wife,</hi> In which words you may conſider two things.</p>
+               <p>Firſt, an exhortation in theſe words, <hi>Come hither.</hi>
+               </p>
+               <p>Secondly, the reaſons or incou<g ref="char:EOLhyphen"/>ragements to back on the exhortati<g ref="char:EOLhyphen"/>on in theſe words; <hi>And I will ſhew thee the Bride the Lambes wife.</hi>
+               </p>
+               <p n="1">1. Of the exhortation, wherein you may conſider theſe things.</p>
+               <p>Firſt, the partie exhorting, an Angel.</p>
+               <p>Secondly, the partie exhorted, JOHN, a ſoul poſſeſſed with Chriſt; from thence obſerve this conclu<g ref="char:EOLhyphen"/>ſion.</p>
+               <p>
+                  <hi>Doct.</hi> That God hath not onely men but Angels if need require,<note place="margin">Revel.
+1.1 Luk. 2.10.</note> to preach the priviledge that comes by Chriſt to chriſtians; Nay, rather, then they ſhall be untaught, God will teach them himſelfe ſo much for that concluſion.</p>
+               <p>Secondly, conſider the exhortation it ſelfe, in theſe words, <hi>Come hither,</hi> in the bowel of which exhortation,
+<pb n="35" facs="tcp:119372:21"/>is included a ſweet admiration; from thence obſerve this concluſion<g ref="char:punc">▪</g>
+               </p>
+               <p>
+                  <hi>Doctrine.</hi> That the underſtanding of the union between CHRIST and CHHRISTIANS,<note place="margin">Epheſ. 5.23.</note> is ful of high divine miſteriall wonders, and this will appear if you conſider the na<g ref="char:EOLhyphen"/>ture of it, the priviledges the Saints have in it, or the glorious effects that flow from it, nay if you conſider no more but this, the nearneſſe betwixt the ſeeing, and the object ſeen, and the ſweet, and ſwift acting of the ſpirit when it ſees, in running out to the thing ſeen, ſo that it really in<g ref="char:EOLhyphen"/>joyes and lives in the thing ſeen: but no more of that. Now from this word, <hi>come hither,</hi> his meaning is, not to come from one place to ano<g ref="char:EOLhyphen"/>ther, nor from one perſon to ano<g ref="char:EOLhyphen"/>ther, for places and perſons, of them<g ref="char:EOLhyphen"/>ſelves, and from themſelves cannot farther diſcover truth. So this word, <hi>Come hither,</hi> doth imply a drawing up of the ſpirit of JOHN to a higher degree of the injoyment of the light of God, that from thence he may be made able to underſtand a further
+<pb n="36" facs="tcp:119372:22"/>diſcoverie of God, from thence you may obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That no ſoul can nor doth any further ſee the manifeſtations of truth,<note place="margin">Reve. 1.10 Pſa. 26.9.</note> then they by it, gathered up in it; the reaſon of this is becauſe that the truth is as well the life of the eye, as the glory of the object, un<g ref="char:EOLhyphen"/>leſſe the eye be inlarged, as well as the glory of the object, we cannot ſee what is dicovered, and the being taken up in the truth, is the inlarge<g ref="char:EOLhyphen"/>ment of the eye to ſee the truth; and there is a ſutableneſſe betwixt the eye and the object: that is the reaſon Bats and Owles do not love to flie but at evening tide, and that is the cauſe the Eagle loves to look up<g ref="char:EOLhyphen"/>on the ſun, becauſe the Eagles eye &amp; the Sun hath a ſutableneſſe on them, and ſo, people legalliſed, by the Law, do not delight to look upon the glo<g ref="char:EOLhyphen"/>rious diſcoveries of the Goſpell, and thoſe that are Goſpelliſed, love to ſee nothing elſe but the glory of the Goſpel, but I ſhall ſay no more of this concluſion. And ſo much of the exhortation, now for the incourage<g ref="char:EOLhyphen"/>ment.
+<pb n="37" facs="tcp:119372:22"/>
+                  <hi>I will ſhew thee the Bride the Lambes wife.</hi>
+               </p>
+               <p>Firſt, <hi>I will ſhew thee,</hi> thence ob<g ref="char:EOLhyphen"/>ſerve this conclvſion.</p>
+               <p>
+                  <hi>Doct.</hi> That the manifeſtation of Chriſt,<note place="margin">prov. 8.31.31.</note> is incouragement enough to Chriſtians to hearken to Chriſt, that ſoule that ever was acquainted with it needs no more incouragement to draw ſorth its Spirit to Chriſt, then to heare it ſhall have a manifeſtation of Chriſt, they ſee ſuch excellen<g ref="char:EOLhyphen"/>cies in it, and receive ſuch ſweet content by it, that by the diſcoveries of the miſterie of the Goſpel, ye may even as with a twined thread leade a ſoul Goſpelliſed round about the world. So much of that concluſi<g ref="char:EOLhyphen"/>ſion.</p>
+               <p>
+                  <hi>Come hither and I will ſhew thee the Bride,</hi> in theſe words is the mat<g ref="char:EOLhyphen"/>ter ſhowne, which is the marrow of the incouragement ſet out in theſe two words; <hi>The Bride the Lambes wife.</hi>
+               </p>
+               <p n="1">1. The <hi>Bride,</hi> which metaphor ſets out the oneneſſe betwix Chriſt and his church, therefore the ſpirit de<g ref="char:EOLhyphen"/>clares
+<pb n="38" facs="tcp:119372:23"/>her to be a <hi>Bride,</hi> and to make this title appear gloriout he ſaith, the <hi>Lambes wife;</hi> that ſo it may appear that this title given to her by Chriſt is ſo far glorious, as it flowes from union with Chriſt.</p>
+               <p>But firſt I will begin with the word <hi>Bride,</hi> from whence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That there is a ſweet Ma<g ref="char:EOLhyphen"/>trimoniall contract betwixt Chriſt and his Church,<note place="margin">Hoſ. 2.19. Iſa. 26.5. Iohn 3.29</note> for proof of which concluſion, I ſhall do theſe three things.</p>
+               <p>Firſt, I ſhal prove it by Scripture</p>
+               <p>Secondly, I ſhall ſhew you how it agrees with a Matrimoniall con<g ref="char:EOLhyphen"/>tract too, and therefore fitly ſet out under that title.</p>
+               <p>Thirdly, I ſhall ſhow you where<g ref="char:EOLhyphen"/>in it tranſcends all other matrimoni<g ref="char:EOLhyphen"/>all contracts in the world; for this ti<g ref="char:EOLhyphen"/>tle is but a metaphor, and metaphors are not to compare, but to declare Chriſt, and therefore there is a tran<g ref="char:EOLhyphen"/>ſcendent excellency in the union be<g ref="char:EOLhyphen"/>twixt Chriſt and his church, that is not to be found in the limits of this metaphor.</p>
+               <pb n="39" facs="tcp:119372:23"/>
+               <p>But firſt for the proofe of the thing. Hoſ. 2.19. I will betroth thee to me for ever. Eſa
+62. the latter end of fifth verſe; As a Bride<g ref="char:EOLhyphen"/>groome rejoyceth over this Bride, ſo ſhall thy God rejoyce over thee. Joh. 3.29. He that hath the Bride, is the Bridegroom.</p>
+               <p>And for the ſecond thing, where<g ref="char:EOLhyphen"/>in it doth agree wish the matrimo<g ref="char:EOLhyphen"/>niall contract, therefore fitly ſo cal<g ref="char:EOLhyphen"/>led; as appeareth in theſe things.</p>
+               <p>Firſt, becauſe there is a perticu<g ref="char:EOLhyphen"/>ler woing, before there is an actuall poſſeſſing or uniting; as you may ſee 2 Cor. 5.20. Now we are Em<g ref="char:EOLhyphen"/>baſſador for Chriſt, as though God did beſeech you to be reconciled. Gods woing is nothing elſe but the ſweet expoſtulations of love with the ſoul, by which he brings home a ſoul to himſelf, and makes a ſoul one with himſelf.</p>
+               <p>Secondly, a mutuall conſent of will is the eſſence, as in other, ſo in this marriage. 1 John 12. To as many as received him; but the word ſhould be read, as many as conſented to him,
+<pb n="40" facs="tcp:119372:24"/>unto them he gave the priviledge of the ſons of God.</p>
+               <p>Thirdly, as in other Marriages ſo in this, there is a ſpeciall living with each other, Chriſt lives with the ſoule and the ſoul lives with Chriſt not onely as domeſticks, but as bo<g ref="char:EOLhyphen"/>ſome friends, in which familiarity, there is ſweet imbracemehts and ſpirituall ſalutings, and making kriowne the miſeries of each others minde to each other, through which they are ſweetly wrapped up in each other, theſe ſoul-raviſhing refreſh<g ref="char:EOLhyphen"/>ments, that the Saints enjoy in this fellowſhip with Chriſt, none knows but they that injoy it, for Chriſt lives ſo with a ſoule, and a ſoule ſo with Chriſt, that under that conſi<g ref="char:EOLhyphen"/>deration, a ſoul is but a <hi>Nowne adje<g ref="char:EOLhyphen"/>ctive,</hi> and cannot ſtand nor ſit by it ſelfe, without Chriſt.</p>
+               <p>Fourthly, as in other Matrimoni<g ref="char:EOLhyphen"/>all unions, ſo in this, the ſoule is made fruitful by living with Chriſt, for it is alone the ſweet &amp; glorious diſcoveries of Chriſt, that makes a ſoul bring forth fruit ſutable to Chriſt,</p>
+               <pb n="41" facs="tcp:119372:24"/>
+               <p>Fifthly, as in other marriages there is a kinde of tranſ-acting of each o<g ref="char:EOLhyphen"/>thers condition to each other; the riches of the Husband to the Wife, and the povertie of the Wife to the Husband: So it is betwixt Chriſt and a Chriſtian, as you may ſee in the 2 Cor. 5. and laſt; <hi>He that knew no fin became ſin for us, that we might be made the righteouſneſſe of God in him.</hi>
+               </p>
+               <p>Whatſoever Law, ſin, or conſci<g ref="char:EOLhyphen"/>ence hath againſt a man, is taken away by Chriſt, he being one with Chriſt, and all that is in Chriſt given forth by God through Chriſt, is made over to a chriſtian made one with Chriſt, and is as really a chri<g ref="char:EOLhyphen"/>ſtians as Chriſt himſelf.</p>
+               <p>Sixthly, as in other Marriages there is a ſympathiſing one with the other, ſo in this Chriſt ſweetly ſimpathiſes with his ſpouſe, and the ſpouſe ſweety ſimpathiſes whith Chriſt.</p>
+               <p>Seventhly, as in other matrimo<g ref="char:EOLhyphen"/>niall union ſo in this; in their ab<g ref="char:EOLhyphen"/>ſence from each other, where is much
+<pb n="42" facs="tcp:119372:25"/>longing for each other, and in the preſence of each other much rejoy<g ref="char:EOLhyphen"/>cing and delight in each other: And ſo much of the ſecond thing.</p>
+               <p>For the third, where it tranſ<g ref="char:EOLhyphen"/>cends all other matrimoniall con<g ref="char:EOLhyphen"/>tracts in the world; that it doth in theſe perticulars.</p>
+               <p>Firſt, in that the mutuall conſent of will, flowes from one and the ſame power; it is not ſo in other matrimoniall contracts: for though a man hath a will to marry a Vir<g ref="char:EOLhyphen"/>gin, yet he hath not a power to make her willing to conſent to him. But it is ſo with Chriſt, that, that power of love that carries out Chriſt to be willing to make himſelf one with us, the ſame power makes us willing to be one with him.</p>
+               <p>Secondly, in other manages mens love is caried out to the party belo<g ref="char:EOLhyphen"/>ved, as being beautifull; but it is not ſo with Chriſt, for Chriſt doth not match with us becauſe we are beautifull, but being deformed, to make us beautifull: And this you may ſee in the 16. of Ezek. 5, 6, 8.
+<pb n="43" facs="tcp:119372:25"/>where you may ſee the time of Gods love was, when they were in their bloud: And God there en<g ref="char:EOLhyphen"/>tred into covenant with them, not becauſe they were beautifull, but even when they were in their bloud, and this he did to make them beau<g ref="char:EOLhyphen"/>tifull. As you may ſee Ezek. 16.14. where God ſaith, I beautified you in my own beautie: If a <hi>Moſes</hi> marry an
+<hi>Aethiopian,</hi> ſhe is an Aethiopian ſtill, but it is not ſo betwixt God and the ſoul.</p>
+               <p n="3">3. In other mariages, commonly men marry ſuch that are ſutable in portion, but Chriſt never maries ſuch that are rich, but being poore he marries them to make them rich; and for that end, Chriſt became poor that we might be made rich.</p>
+               <p>Fourthly, in other marriages in<g ref="char:EOLhyphen"/>firmities in a wife, or accuſations againſt a wife, doth many times take off the love of a husband from the wife, but its never ſo with Chriſt: Will the divell accuſe <hi>Iob</hi> to the Lord? Yet the Lord is not changed by it, but declares the
+<pb n="44" facs="tcp:119372:26"/>ſame approbation of <hi>Iob</hi> as before: And ſo the Spouſe who hath infir<g ref="char:EOLhyphen"/>mities in her, and ſhe confeſſeth the ſame, ſaying ſhe is black; yet Chriſt to the ſame Chapter ſaith, ſhe is fair and comely.</p>
+               <p>Fifthly, that which is a juſt ground according to law, to take off the love of a husband from his wife, ſo that there is no acceptance to be found with a husband in the returne of his wife; its not ſo betwixt God &amp; the ſoul: And this you may ſee at large in the third of
+<hi>Ieremiah</hi> and the firſt verſe.</p>
+               <p>Sixthly, that which makes a ſepa<g ref="char:EOLhyphen"/>ration in part or whole betwixt a man and his wife, neither in part nor whole can make a ſeparation betwixt Chriſt and a chriſtian.</p>
+               <p>As poverty, impriſonment, and baniſhment, may make a ſeparation in part, and death makes a totall ſe<g ref="char:EOLhyphen"/>paration; But know this, if the world makes a chriſtian poore, or ſends him into priſon or baniſh<g ref="char:EOLhyphen"/>ment, all this cannot deprive them of ſweet fellowſhip and commu<g ref="char:EOLhyphen"/>nion
+<pb n="45" facs="tcp:119372:26"/>with Chriſt; who hath inga<g ref="char:EOLhyphen"/>ged himſelf to be with them, and to unfold himſelfe to them, not leſſe but more at ſuch times: when <hi>Iere<g ref="char:EOLhyphen"/>miah</hi> and
+<hi>Paul</hi> were in priſon, when more enjoyments from God, and unfouldings of God than then? And then for death, tis ſo far from ſepara<g ref="char:EOLhyphen"/>ting us from God, that then is the time wee have a full injoyment of God. And herein I have diſcove<g ref="char:EOLhyphen"/>red, wherein this matrimoniall con<g ref="char:EOLhyphen"/>tract doth tranſcend all other: I ſhould draw a corolie from each of theſe particulars, but for brevities ſake I will paſſe them over; and make onely a briefe uſe or two of in<g ref="char:EOLhyphen"/>ſtruction, from the whole conclu<g ref="char:EOLhyphen"/>ſion.</p>
+               <p>And firſt to inſtruct us; if this be ſo, then let it teach us to look upon-Chriſt as a husband; and that we do when we do theſe things:</p>
+               <p>Firſt, when we look upon him, as none like him.</p>
+               <p>Secondly, when wee look for all lawe and government from him; It is not the vives duty to make lawes,
+<pb n="46" facs="tcp:119372:27"/>but to obey lawes; ſo it is not the churches duty to make laws for the worſhip of Chriſt, but to conform to ſuch laws for worſhip, given forth by Chriſt.</p>
+               <p>Thirdly, we are ſaid to look up<g ref="char:EOLhyphen"/>on Chriſt as a husband, not onely when we go on in our duty to con<g ref="char:EOLhyphen"/>form to him, but alſo when we lay all our povertie and debts upon him. But it is here with chriſtians as it is with ſome ſimple women, who out of a pretended humilitie (though reall pride) inſtead of lay<g ref="char:EOLhyphen"/>ing their debts upon their husbands (whom have enough) they pinch themſelves to pay their debts from themſelves: So many chriſtians, when the law and conſcience comes to them with a writ, they not knowing their freedom from them, do not ſend them to Chriſt, and lay them upon Chriſt, but endeavour to anſwer, ſuch things from their re<g ref="char:EOLhyphen"/>ſolutions againſt ſin, and from their conformitie to Chriſt; and ſo ſet up their reſolutions and conformity as a Chriſt.</p>
+               <pb n="47" facs="tcp:119372:27"/>
+               <p>Fourthly, in looking for all maintainance from him.</p>
+               <p>Fiftly, in doing all things for the honour of him.</p>
+               <p>Next uſe is of comfort; to com<g ref="char:EOLhyphen"/>fort all the people of God, that they have ſuch a husband provided for them, which is God: It is a com<g ref="char:EOLhyphen"/>fort to them in theſe perticulars.</p>
+               <p>Firſt, in that he is a husband, that lookes for nothing in you to draw his love to you.</p>
+               <p>Secondly, no infirmity in you, can draw his love from you.</p>
+               <p>Thirdly, nothing that befals you can make a ſeparation betwixt Chriſt and you.</p>
+               <p>Fourthly, he will call you to no duty, but he will give you a power ſutable to perform duty.</p>
+               <p>Fifthly, ye may be ſure he is ſuch a husband, that will be ſo farre from failing in his love, that he will tranſcend all in love: So much of this uſe, and of this concluſion.</p>
+               <p>For theſe words, <hi>the Lambs wife;</hi> which is an explication of the for<g ref="char:EOLhyphen"/>mer, to make the former title glo<g ref="char:EOLhyphen"/>rious;
+<pb n="48" facs="tcp:119372:28"/>Thence you may obſerve this concluſion: That titles gven to us by Chriſt, are ſo far glorious, as they flow from union with Chriſt. Nay, we may adde one word in the concluſion, and draw it thus.</p>
+               <p>
+                  <hi>Doct.</hi> That all titles given to us by Chriſt, nay our very actings to<g ref="char:EOLhyphen"/>wards Chriſt, is ſo farre glorious as it flowes from union with Chriſt; for if we beleeve,<note place="margin">Ioh. 15.4.</note> or love, or re<g ref="char:EOLhyphen"/>joyce, or conform, this is no farther glorious, then it is a fruit of Chriſt, flowing from union with Chriſt: But no more of this doctrine, nor of this verſe.</p>
+               <p>The next Scripture is the 40 of Iſaiah and the 11. verſe, the words being theſe: <hi>He ſhall feed his flocke like a Shepheard, he ſhall gather the Lambes with his arme, and carry them in his boſeme, and ſhall gently lead thoſe that are with young;</hi> Which Scripture is ſo ful of divine ſweetnes that I do not know how, briefly to give an anſwer to it; all things that are eſſentiall to the bringing home of a ſoule to Chriſt, and all divine
+<pb n="49" facs="tcp:119372:28"/>priviledges belonging to a ſoul, thus brought home, and all objection that can be made by a ſoule againſt theſe, are ſwetly held forth and an<g ref="char:EOLhyphen"/>ſwered in this verſe.</p>
+               <p>If a ſoule doth object and ſay, I am dead and have no power? How ſhall I come to Chriſt? Chriſt an<g ref="char:EOLhyphen"/>ſwers; I will gather them with my armes; the arme of Chriſt is his, the ſtreength of Chriſt, and the ſtrength of Chriſt is the power of love held forth in Chriſt, and further, whereas they may object and ſay, If I am brought home to Chriſt, I ſhall have many oppoſitions, troubles and tri<g ref="char:EOLhyphen"/>als, how or where ſhall I be preſer<g ref="char:EOLhyphen"/>ved?</p>
+               <p>Chriſt anſwers; That, in this word, <hi>I will carry them in my boſome,</hi> an expreſſion full of divine refreſh<g ref="char:EOLhyphen"/>ment: and whereas they may fur<g ref="char:EOLhyphen"/>ther object and ſay. I am but weake and newly begotten by Chriſt, and am not able to anſwer the com<g ref="char:EOLhyphen"/>mands of Chriſt, Chriſt ſweetly an<g ref="char:EOLhyphen"/>ſwers; <hi>I will drive them gently that are with youg,</hi> We will begin with
+<pb n="50" facs="tcp:119372:29"/>the firſt expreſſion.</p>
+               <p>Firſt,<note place="margin">Ioh. 10.16 Iohn 14.6</note> 
+                  <hi>I will gather my Lambes with my armes:</hi> Gathering implies, bringing home, thence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That the bringing home of a ſoul to Chriſt, is the ſole worke of Chriſt; And this is cleere from many places of Scripture, and ſo if you conſider theſe things.</p>
+               <p>Firſt, what converſion is.</p>
+               <p>Secondly, if you conſider the me<g ref="char:EOLhyphen"/>taphors the Holy Ghoſt takes up to declare converſion by.</p>
+               <p>Firſt, what converſion is, it is not a turning from a rude courſe of life, by the power of education, nor it is not a legall conformitie to the Law, produced by the power of convicti<g ref="char:EOLhyphen"/>on, that meerly ariſe from the ter<g ref="char:EOLhyphen"/>rours of the Law, neither is it a bare profeſsion of the Goſpell, without being poſſeſſed with it: but it is for a ſoul, by the ſupernaturall com<g ref="char:EOLhyphen"/>mings in of God, ſo to be taken up in God, and overcome by God, by the vertue of which he is carried af<g ref="char:EOLhyphen"/>ter God, againſt all oppoſitions,
+<pb n="51" facs="tcp:119372:29"/>whatſoever, from the termes of which deſcription, for your better information obſerve this coro<g ref="char:EOLhyphen"/>lie.</p>
+               <p>Firſt, that it is above the reach of nature to bring home a naturall man to God,<note place="margin">Pro 161.</note> but it is ſingly and ſolely, the power of God.</p>
+               <p>Secondly, that every ſoul brought home to God by a power of God, is ſweetly taken up in God himſelfe; Chriſtians are not onely under love, but they really in love, they doe not onely reſt on, but they ſweetly reſt in the boſome of God him<g ref="char:EOLhyphen"/>ſelfe.</p>
+               <p>Thirdly, That the excellencie ſhewed in God, by ſoules brought home to God, is an overcomming excellence: Truely friend, a man cannot ſpeak of this from a real in<g ref="char:EOLhyphen"/>joyment of it, but he is really, ſweetly and ſwiftly overcome by it; O what divine wonders, what refreſhing ſweetneſſe, what objects of love, nay what all love, doth that ſoul ſee in God, that really lives in the boſome of God. It is not poſible for a
+<pb n="52" facs="tcp:119372:30"/>ſoul to ſee it, but he muſt, he ſhall be overcome by it.</p>
+               <p>Fourthly, the running forth of the Excellencie of God, ſeen in God, is the vertue and power that carries on ſoules after God.</p>
+               <p>Fifthly, that no oppſition againſt Chriſtians in the following after Chriſt, can any way take off the love and deſire to Chriſt.<note place="margin">Eſa. 43.2. Ier. 33.3.</note>
+               </p>
+               <p>The reaſon is becauſe the more they are oppoſed for profeſſing of him, the greater incomes they have from him.</p>
+               <p>The ſecond reaſon is, becauſe they ſee a macthleſſe excellencie in him; once ſee Chriſt, and none like him: water will quench fire in any place, onely in lime, and there it will make it burne the more.</p>
+               <p>Oppoſitions may hinder mens go<g ref="char:EOLhyphen"/>ing on in profeſſing of Chriſt, if not poſſeſſed with Chriſt; but they that are not only profeſſors but poſſeſſed with Chriſt, it will make them run forth after Chriſt much the more: the kingdome of God ſuffereth vio<g ref="char:EOLhyphen"/>lence, and the violent take it by
+<pb n="53" facs="tcp:119372:30"/>force. And ſo much of this firſt thing, what converſion is.</p>
+               <p>Secondly, for the metaphors that the holieſt takes up to declare con<g ref="char:EOLhyphen"/>verſion, doth declare it is done alone by the power of chriſt, and no<g ref="char:EOLhyphen"/>thing elſe; ſometimes he ſaith it is a begetting; well he may ſo ſay, for a childe can do as much toward his own begetting,<note place="margin">1 Pet 1.3.</note> as a man toward his own converſion.</p>
+               <p>Secondly, he compares it to a re<g ref="char:EOLhyphen"/>ſurrection; he may well ſo ſay, for a man may as well riſe out of the grave and live of himſelf,<note place="margin">Col 3.1.</note> as a man can riſe out of the grave of ſin, and live to God, without a power of God.</p>
+               <p>Thirdly, it is compared to a crea<g ref="char:EOLhyphen"/>tion; which is to make ſomething of nothing,<note place="margin">Epheſ. 5.10.</note> which is proper to an infinite power: What ſhall wee thinke of thoſe then who preach for preparations for chriſt, and ſtir up men in the worke of converſion too, to work with Chriſt; and think they do well in ſo doing? We may ſay of theſe men, as thoſe the Apoſtle
+<pb n="54" facs="tcp:119372:31"/>ſaid would take upon them to preach the law, put knew not what they ſaid, nor whereof they affir<g ref="char:EOLhyphen"/>med: But I ſay no more of them but this, the Lord lead them and us ſo forth by the truth, that in all our expreſſions of ſuch things, we may lay down all things, and exalt the truth: ſo much of this firſt con<g ref="char:EOLhyphen"/>cluſion.</p>
+               <p>And from the ſecond thing, <hi>I will carry them in my boſome:</hi> Firſt, I will carry; then I will carry; them in my boſome.</p>
+               <p>From the firſt, I will carry them, obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That all ſoules brought home to God through Chriſt, ſhall undoubtedly bee carried on by Chriſt; That appeareth from theſe grounds.</p>
+               <p>Firſt, becauſe the power of carry<g ref="char:EOLhyphen"/>ing on to God, is the ſame power that brought a ſoul home at the firſt to God, which is alone the power of God; therefore we may draw the ſillogiſme thus.</p>
+               <p>That which depends upon the
+<pb n="55" facs="tcp:119372:31"/>power of God, that ſhould ſtand.<note place="margin">1 Pet 1.5.</note> But as well the carrying on a ſoul, as the bringing home a ſoul, depends upon the power of God;
+<hi>Ergo,</hi>
+                  <note place="margin">Ier. 32 40.</note> it muſt needs ſtand.</p>
+               <p>Secondly, that which hath a de<g ref="char:EOLhyphen"/>pendence on the faithfulnes of God without us, and not to any qualifi<g ref="char:EOLhyphen"/>cation within us, that muſt needs ſtand: But our carrying on to God as well as our being converted by God, hath a dependencie upon the faithfulneſſe of God without us,
+<hi>Ergo,</hi> it muſt needs ſtand. But if this be ſo, what ſhall we think of thoſe that would have a man be a childe of God to day, and a childe of the devill to morrow? but I ſay, no more of that thing.</p>
+               <p>Next Uſe, is a uſe of comfort to the people of God; in that their pre<g ref="char:EOLhyphen"/>ſervation and carrying on to God through Chriſt, is really done by a power of Chriſt: For we are kept by the power of God, through faith to ſalvation. So much of this firſt thing I will carry them: Now for the next thing, <hi>I will carry them in my boſome.</hi>
+               </p>
+               <pb n="56" facs="tcp:119372:32"/>
+               <p>The word <hi>boſome,</hi> is a metaphor, in generall it holds forth love, from that we may draw this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That all ſoules brought home to chriſt, do not only live by, but really in the love of chriſt, but this word <hi>boſome,</hi> holds forth many particulars.</p>
+               <p>Firſt, it holds forth a neereneſſe to chriſt.</p>
+               <p>Secondly, a familiar and ſweete communion with chriſt, from which particulars obſerve theſe con<g ref="char:EOLhyphen"/>cluſions.</p>
+               <p>
+                  <hi>Doct.</hi> Firſt, that there is a ſweet neerneſſe betwixt chriſt and a chri<g ref="char:EOLhyphen"/>ſtian, this is ſet out in divers things by chriſt himſelfe, where he ſaith, You are the Branches, and I am the Vine; A Vine and the Branches live by the vertue of one life, they are of a nature, they bring forth one and the ſame fruite, this neerneſſe and oneneſſe is to be conſidered in theſe things.</p>
+               <p>Firſt, in their being, A chriſtan hath not onely a being in God as a creature, but he alſo hath a being
+<pb n="57" facs="tcp:119372:32"/>in him as a chriſtian, which is a riches being conſideredy m<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>erl in the will and free love of God; and this was before for him, before he was brought forth into the world by God: and what is chriſt conſi<g ref="char:EOLhyphen"/>dered as chriſt; but the bright<g ref="char:EOLhyphen"/>neſſe of his Fathers Image, which is nothing elſe but the runnings forth of the fathers free love, what<g ref="char:EOLhyphen"/>ſoever directly flowes from a thing as the firſt efficient cauſe hath a direct beinig in the thing that is thus the cauſe of it; and ſo chriſt as a chriſt, and his Father are one.</p>
+               <p>Secondly, there is an union of perſons in time, and that two fold.</p>
+               <p>Firſt, an union of poſſeſſion, or as ſome would have it, an union of por<g ref="char:EOLhyphen"/>tions, and that is by the righteous being that was in God before all time, and doth in time through chriſt put forth it ſelf in the revela<g ref="char:EOLhyphen"/>tion of it ſelf in a ſoul, and takes up the ſoul in it ſelf, and gives the ſoul actually to ſee it ſelf to bring forth fruit ſutable to chriſt.</p>
+               <pb n="58" facs="tcp:119372:33"/>
+               <p>Secondly, there is a union of will and affections, and that is that which Chriſt aimeth at in the 17. of <hi>Iohn,</hi> ſpeaking thus, <hi>He came not to do his owne but his fathers will,</hi> and in the 17 of John, he praies to his Father, for his diſciples, that they may be as we are, one; and yet they were one in the firſt and ſecond ſence, &amp; ther<g ref="char:EOLhyphen"/>fore the un on he praies for, is of will and affection, the perfection of which union, is the higheſt pitch that ever the creator ſhall attain to, this union is increaſed &amp; built up by the commings in of God, and that thus, God is pleaſed by the ſweet, unfoldings and commings in of himſelfe, ſo to fould up the ſpirit of a man in himſelf, that ſo the ſoule is brought not onely to will ſuta<g ref="char:EOLhyphen"/>ble to the will of God, and love ſu<g ref="char:EOLhyphen"/>table to love, but is ſo minded with Gods minde, that hee will in his will, and loves in his love; the uſe of this is, to teach all chriſtians, not to comprehend, but ſo to appre<g ref="char:EOLhyphen"/>hend, as to admire the wonderfull depth of the riches of the love of
+<pb n="59" facs="tcp:119372:33"/>God in making his people thus one with himſelf, ſo much of this concluſion Secondly, the word <hi>boſome</hi> holds forth a ſweet familiarity and acquaintance; from thence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That all that are called home by Chriſt, are not onely called to be his ſervants, but they are called unto a ſweet familiarity and friendſhip with himſelf, they are called to be bo<g ref="char:EOLhyphen"/>ſome friends, they ſhall know the heart of Chriſt, they ſhall be dandled upon the knee of Chriſt, they ſhall be hugged in the ſweet imbracements of Chriſt, they ſhall be refreſhed by the kiſſes of the mouth of Chriſt, they ſhall ſup with him, they ſhall lie with him, they ſhall live with him; they ſhall die with him.</p>
+               <p>How lovely is it to live and die in the armes of love, none knowes it but he that enjoyes it, this love is the pri<g ref="char:EOLhyphen"/>viledge of the Saints; And ſo much of this concluſion.</p>
+               <p>And ſo much of the ſecond thing; <hi>I will carry them in my boſome.</hi>
+               </p>
+               <p>The third is, <hi>I will drive them gently, that are with young;</hi> he ſets the drivings of the Goſpell or love, in oppoſition
+<pb n="60" facs="tcp:119372:34"/>to the driving of the Law, hence ob<g ref="char:EOLhyphen"/>ſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> The drivings of the Goſpell are gentle drivings.</p>
+               <p>That which carries one on by the power of love, and not by the terrors of a Law, that is a gentle driving; but the drivings of the Goſpell are ſo: <hi>Er<g ref="char:EOLhyphen"/>go,</hi> Therefore they he gentle drivings.</p>
+               <p>Secondly, thoſe commands which doth not onely command duty, but in the bowels of the commands brings a power to perform duty; that is a gen<g ref="char:EOLhyphen"/>tle driving: But whatſoever Chriſt in the Goſpell requires of us, thoſe com<g ref="char:EOLhyphen"/>mands brought home to us, brings power in them to conform a ſoul ſweet ly to them<g ref="char:punc">▪</g> theſe and many other ways may we prove the concluſion: but I ſhall not at this time ſpeak of. But from all this whole verſe, in a concluſion of what we have ſaid, we may gather this concluſion in a way of comfort to poor ſouls.</p>
+               <p>
+                  <hi>Doct.</hi> That whatſoever can be ob<g ref="char:EOLhyphen"/>jected by them, concerning their brin<g ref="char:EOLhyphen"/>ging home to Chriſt, and their preſer<g ref="char:EOLhyphen"/>vation in Chriſt, and their being car<g ref="char:EOLhyphen"/>ried on after Chriſt; by Chriſt is an<g ref="char:EOLhyphen"/>ſwered
+<pb n="61" facs="tcp:119372:34"/>for them in theſe words: <hi>I will gather my Lambs with my armes, and I will carry them in my boſome, and drive them gently that are with young.</hi> But I ſhall ſpeak no more of this verſe.</p>
+               <p>The next Scripture is in the 16. of the Revelations, and the beginning of the 19. verſe, the words being theſe; <hi>And the great Citie was divided into four parts.</hi>
+               </p>
+               <p>I ſhall ſpeake ſomething to theſe words, though not much: I might ſpeak ſomething of them in referenc to the words going before; and ſo we may ſpeak ſomething of the ſeven Vials, and ſomething of the three unclean ſpirits, that came out of the mouth of the Dra<g ref="char:EOLhyphen"/>gon, and out of the mouth of the Beaſt, and out of the mouth of the falſe Pro<g ref="char:EOLhyphen"/>phet: The unfolding of which things, would give a great light to diſcover what the City is, and what the three diviſions are: But I having ſpoke ſo largely to the other Scriptures, I ſhall not ſpeak much to this Scripture: And therefore paſsing over all the matter before, I ſhall ſpeak briefly to the words themſelves.</p>
+               <p>And firſt for the great City. If you
+<pb n="62" facs="tcp:119372:35"/>ask me what I conceive that to be? I anſwer, I conceive it to be the Anti<g ref="char:EOLhyphen"/>chriſtian ſtate, or the ſtate of Antichriſt, which ſtate is againſt Chriſt, and con<g ref="char:EOLhyphen"/>demned by Chriſt. It is a ſtate of pride, which word begins with <hi>P.</hi> And for thoſe three diviſions here ſpoken of, it is three Powers or Governments which live in it, and is dawn forth of it as dranches from the body; and ſure<g ref="char:EOLhyphen"/>ly in that they live in it, they muſt needs be like to it: And I told you the great citie was the ſtate of Anti<g ref="char:EOLhyphen"/>chriſt, a ſtate of pride; that is ſet up in oppoſition againſt Chriſt, and being a ſtate of pride as I told you before, be<g ref="char:EOLhyphen"/>gins with <hi>P;</hi> and thoſe three ſtates in it, or branches drawn forth out of it, unqueſtionably is like to it, and as that begins with <hi>P,</hi> ſo I beleeve do they.</p>
+               <p>As firſt, Poperie.</p>
+               <p>Secondly, Prelacie.</p>
+               <p>And as for the third ſtate in it, or branch flowing from it as part of it, un<g ref="char:EOLhyphen"/>queſtionably it begins with <hi>P,</hi> as well as the two farmer; but when we ſee it, or rather feel the ſmart of the executi<g ref="char:EOLhyphen"/>on of it, then ſhal we the better under<g ref="char:EOLhyphen"/>ſtand it; &amp; be able to give a deſcription
+<pb n="63" facs="tcp:119372:35"/>of it; but I ſpeak no more of this Verſe.</p>
+               <p>But you may object and ſay, though I will not give forth my thoughts any further of this Scripture, or eſpecially of the third ſtate that lives in it, or flowes from it: but you ſay we ſhall better underſtand it when we feel the execution of the power of it; but may we not in the mean time have ſome ſymptomes how to diſcover it?</p>
+               <p>
+                  <note place="margin">Dan. 7.8. Popery and Pre<g ref="char:EOLhyphen"/>lacie did rather in deavour a continua<g ref="char:EOLhyphen"/>tion with each other th<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n a ruine of each o<g ref="char:EOLhyphen"/>ther.</note>To which I anſwer, that unqueſtio<g ref="char:EOLhyphen"/>nably it is made up of pride, and muſt needs begin with
+<hi>P.</hi> as the reſt do, <hi>Da<g ref="char:EOLhyphen"/>niel</hi> gives ſome light for the underſtan<g ref="char:EOLhyphen"/>ding of it. Firſt, in that he ſaith it is a little horn; it doth not appear great in ſubſtance, but ſharp in the nature; co<g ref="char:EOLhyphen"/>vered over with fairer ſhews then the other, fairer in expreſſions, but as evill intentions as any. It is a horn that throwes down other horns to ſet up it ſelf; and it is a horn as it is the leaſt, ſo it is the laſt.</p>
+               <p>And <hi>Daniel</hi> ſeemes to hold forth ſomething for the underſtanding of it,<note place="margin">Dan
+7.20.</note> given forth in the languiſhing of it: Therfore ſurely in the language and do<g ref="char:EOLhyphen"/>ctrine held forth in ſuch a power, we may ſomewhat gueſſe of it; and that
+<pb n="64" facs="tcp:119372:36"/>doctrine which doth directly croſſe and contradict the doctrine of Chriſt, muſt needs be the doctrine of Anti<g ref="char:EOLhyphen"/>chriſt: as theſe doctrines do, which I ſhall name to you.</p>
+               <p>Firſt, that doctrine which teaches men not to worke from a power of love given forth by God, but teaches men to work, and in their working ſo to work, as to alter God, and get love from God, that is a doctrine of Anti<g ref="char:EOLhyphen"/>chriſt, and not of God.</p>
+               <p>Secondly, that doctrine that holds forth Religion as onely entred in a law, and not produced by love, that is not a doctrine of Chriſt; who was ſent by his Father, onely to hold forth a doctrine of love.</p>
+               <p>Thirdly, that which ties the ſeat of Chriſt to be regulated by the law of a creature, that takes from Chriſt, and gives to the creature, that muſt needs be a doctrine of Antichriſt.</p>
+               <p>But that doctrine which holds forth ſuch a Religion, as to binde the con<g ref="char:EOLhyphen"/>ſcience in matter of worſhip, which conſcience is the ſeat of Chriſt, to be regulated and only guided by the law of the creature, I mean the civill Law
+<pb n="65" facs="tcp:119372:36"/>of the nation,<note place="margin">Further obſerve from verſe 19.29. that the fall of the Nati<g ref="char:EOLhyphen"/>ons, and the filling of the I<g ref="char:EOLhyphen"/>lands was not till this third diviſion appeared. Heb. 3 5, 6</note> this muſt needs derogate from Chriſt; and if this Argument holds good in one civill State, it muſt needs hold good in all: Then ſo many ſundry States, ſo many ſundry Lawes, then ſo many ſundry rules of worſhip, to worſhip Chriſt by. And how in<g ref="char:EOLhyphen"/>jurious this is to Chriſt, and contrary to the minde of Chriſt: who was as faithfull in his houſe as
+<hi>Moſes,</hi> I leave to you to judge.</p>
+               <p>Fourthly, I beleeve it is ſuch a do<g ref="char:EOLhyphen"/>ctrine or language, that ties all further diſcoveries to a preſent light: But no more in anſwer to theſe things, nor to this Verſe.</p>
+               <p>The next Scripture, it ſeemingly ſpeaks not as the former have done; and is in the 10. of
+<hi>Hoſea</hi> and the 12. verſe, the words being theſe;</p>
+               <p>
+                  <hi>Sowe to your ſelves in righteouſneſſe, reap its mercie; break up the fallow ground, for it is time to ſeek the Lord, till he come and raign righteouſneſſe upon you.</hi> To give my thoughts of this Scri<g ref="char:EOLhyphen"/>pture; conſider.</p>
+               <p>Firſt, that the expreſſion is ſutable to that Law which was a covenant of works: which taught men to work
+<pb n="66" facs="tcp:119372:37"/>for life, as I told you before, but did not teach men to work from a power of life to acknowledge life;<note place="margin">Lev. 15.18. Eze. 20.11. Rom. 10.4 2 Cot. 3.11. Gal.
+4.5. Heb. 8.13.</note> which co<g ref="char:EOLhyphen"/>venant by Chriſt we are freed from. But becauſe the duty in it, in an Evan<g ref="char:EOLhyphen"/>gelicall way is to be obſerved by them that are freed from it, therefore we ſhall ſpeak ſomething to it.</p>
+               <p>And firſt we muſt know this; that being freed from that old covenant, which taught men thus to work; ſo the language of that covenant proper to it ſelf, muſt be kept to it ſelf, and not applied to them that are freed from it.</p>
+               <p>But in the Evangelicall obſerving any duty in it, it is to be obſerved not according to the obligement and language of the old covenant from which we are freed, but according to the language and rules of the covenant which we are now under, which is of a more noble nature: In which cove<g ref="char:EOLhyphen"/>nant God is pleaſed to make the bleſ<g ref="char:EOLhyphen"/>ſings that were annexed to the old co<g ref="char:EOLhyphen"/>venant, which was the end of an act under that covenant, now to be a cauſe producing acts under this covenant.</p>
+               <p>And ſo according to that rule, ſhould we obſerve all the duties we do obſerve
+<pb n="67" facs="tcp:119372:37"/>as to inſtance in ſome particulars: Whereas the Prophet ſaith, the Lord will be with you while you are with him, that is the language of the old co<g ref="char:EOLhyphen"/>venant. 2 Cor. 1.15,
+2.</p>
+               <p>Now we are not to underſtand it nor obſerve it thus, that the Lord is kept with us by our keeping with him, but we are kept with the Lord by his being with us: And ſo the prophet in ano<g ref="char:EOLhyphen"/>ther place, where he ſaith to ſome that had not the Lord; Seek the Lord, and ye ſhall finde him: We are not now to underſtand it nor obſerve it as though our being found of God, was the fruits of our ſeeking; but wee are to under<g ref="char:EOLhyphen"/>ſtand it thus: That our ſeeking God is a fruit of being found by God, for none Evangelically ſeeks God, till he is found of God. So in this place, Hoſ. 10.12. <hi>Sow to your ſelves in righteouſ<g ref="char:EOLhyphen"/>neſſe, reape in mercy:</hi> Which words ſeem to hold forth ſo much, according to the language of the old covenan; as though we were to act righteouſneſſe before we receive mercy, but beleevers under the covenant of grace are not ſo to obſerve it; but we are now to ob<g ref="char:EOLhyphen"/>ſerve it, ſo that we act righteouſneſſe in
+<pb n="68" facs="tcp:119372:38"/>that we have received mercy. For Chriſt and his Apoſtles ſtill drawes forth du<g ref="char:EOLhyphen"/>ty from a power of priviledge, as ap<g ref="char:EOLhyphen"/>peareth by ſuch expreſſions as theſe; bleſſed are they that hunger and thirſt; the bleſſedneſſe is not placed in the fu<g ref="char:EOLhyphen"/>ture tenſe, as a thing to be got by hun<g ref="char:EOLhyphen"/>gring and thirſting, but it is placed in the preſent tenſe, as that which is the producing cauſe of it. So the Apoſtle ſaith, ſeeing we have theſe promiſes, let us cleanſe our ſelves. According to theſe rules, are we to underſtand this Verſe; <hi>Sowe to your ſelves in righteouſ<g ref="char:EOLhyphen"/>neſſe, reap in mercy:</hi> And underſtanding theſe words according to the former rules, this concluſion will ariſe.</p>
+               <p>
+                  <hi>Doct.</hi> That acts of righteouſneſſe are fruits of mercy. If you aske me in the firſt place,<note place="margin">Rom. 2.1. Luk 7.47. 2 Cor. 7.1</note> what I mean by acts of righteouſneſſe? I anſwer, by that I mean the acts of ſanctification. If you ask me in the next place, what the righte<g ref="char:EOLhyphen"/>ouſneſſe of ſanctification is? I anſwer, it is a conformity to the will of God, produced by the power of God, in which the ſoul is carried out to live to God in perticular acts. If you in the next place ask me, what I mean by
+<pb n="67" facs="tcp:119372:38"/>mercy that the acts of righteouſneſſe is a fruit of? I anſwer, by that mercy I mean the ſweet &amp; glorious commings in of God, by which the ſoul becomes really poſſeſſed with God, and is made able to live in the light &amp; love of God, and ſo is made able from thence to bring forth acts of righteouſneſſe ſu<g ref="char:EOLhyphen"/>table to God: and therefore thus I de<g ref="char:EOLhyphen"/>ſire to ſpeak to all that love God, act righteouſnes ſutable to God, in that you have received mercy from God.</p>
+               <p>The reaſon to prove this point is this; No ſoul can act a living act with<g ref="char:EOLhyphen"/>out a living power, but no ſoul injoys a living power, till he hath received mercy from God, therefore no ſoul can act acts of righteouſneſſe, which are li<g ref="char:EOLhyphen"/>ving actes, till they have recived mercy from God which is a living power, the uſe of this ſame is, to ſhew the folly of two ſorts of people.</p>
+               <p>Firſt, thoſe who teach men to work to get mercy, and not to act from a power of mercy received, they may as well ſay to a dead man, act living acts, and I will give you life.</p>
+               <p>Secondly, it ſerves to ſhew the folly of thoſe who ſay, they have received
+<pb n="70" facs="tcp:119372:39"/>mercy from God, and yet walk looſly with God, I know not what they ſay; For that heart that really hath received mercy from God, in being poſſeſſed with God, they are ſo overcome with God, that they love to live to him, and look upon the duties they are to per<g ref="char:EOLhyphen"/>forme, as a high priviledge, but no more of this concluſion.</p>
+               <p>And for the next words, break up your fallow grounds, which is an ex<g ref="char:EOLhyphen"/>plication of the former, or a direction for a right performance of the former, for as it is a fooliſh thing to ſowe in unbroken ground, ſo it is an impoſſible thing to act righteouſneſſe, with an un<g ref="char:EOLhyphen"/>melted, or unbroken heart, from whence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That a heart is changed and broken by God, before he can bring forth acts of righteouſneſſe to God, an old principall cannot bring forth new fruite, when I ſay, God breakes the heart, I do not mean; breaking the heart by the terrours of the Law, but a melting of the heart by the commings in of love, but I ſay no more of of that concluſion.</p>
+               <p>For the next word, <hi>It is time to ſeek
+<pb n="71" facs="tcp:119372:39"/>the Lord.</hi> Iplying, that is, ſome ſpeci<g ref="char:EOLhyphen"/>all times of ſeeking God, or that it is a a ſpeciall thing to ſeek God, thence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That it is the duty of all ſouls poſſeſſed with God to ſeek God.</p>
+               <p>The ne next words are, till I raigne downe righteouſneſſe upo you; im<g ref="char:EOLhyphen"/>plying thus much, That that ſoul that hath power from God, to ſeek to God, for the powring down of his mercy, ſhall ſurely have anſwere; From thence obſerve this concluſion.</p>
+               <p>
+                  <hi>Doct.</hi> That God is not, nor God will not be a forſaking God to a ſeek<g ref="char:EOLhyphen"/>ing people; This is cleer if you look upon the promiſe of God, conſider the love of God.</p>
+               <p>God cannot, will not, forſake a ſeek<g ref="char:EOLhyphen"/>ing people; Why? becauſe it is alone from the enjoyment of God, that we ſeek God and under that ſence we may as well ſay, God can as well for<g ref="char:EOLhyphen"/>ſake himſelfe, as forſake thoſe that ſeek him, from an injoyment of him.</p>
+               <p>
+                  <hi>Vſe.</hi>
+               </p>
+               <p>Firſt, to informe us of one coro<g ref="char:EOLhyphen"/>lie that naturally ariſeth from the Con<g ref="char:EOLhyphen"/>cluſion,
+<pb n="71" facs="tcp:119372:40"/>and that is this, that no ſoule can ſeek God, til he is found of God, the reaſon to this corolie is this: Becauſe the power of our ſeeking, is the fruit of Gods finding, then this ſhewes the folly of thoſe men which ſtirred up people to ſeek, not from a power of being found, but ſtir them up to ſeek, that they may be found.</p>
+               <p>The next uſe is, a uſe of comfort; If our ſeeking be a fruit of Gods finding: this ſhould comfort Gods people thus, that there is no ſear of failing to finde God, when we ſeek him, becauſe the power of ſeeking God flowes from the priviledge of being found of God, and ſo much of this concluſion, and of this verſe.</p>
+               <p>And for that place in Jer. 4.3. and beginning of the fourth verſe, which words are theſe.</p>
+               <p>
+                  <hi>For thus ſaith the Lord to the men of Iudah and Ieruſalem, break up the fallow grounds, and ſow not among thornes:</hi> Circumciſe your ſelves to the Lord, and take away the foreskin of your hearts<g ref="char:punc">▪</g> and had I time I ſhould ſpeak to this Scripture as I have ſpoken to that in <hi>Hoſea,</hi> which is to be underſtod in the
+<pb n="72" facs="tcp:119372:40"/>ſame way, and according to the ſame rules, before laid down, but at this time I ſhall ſpeak no more.</p>
+               <p>Dear friends according that ſmal abi<g ref="char:EOLhyphen"/>lity I have given me by God, I have given an anſwer to your deſires: if I had more time, &amp; more light, I ſhould ſpeak more fully and more ſpiritually, but I muſt needs confeſſe that it is but a little of God, I do yet know, but may deſire for you and my ſelf, is that we may know God, from God, that we may rather live upon our being known of him then knowing of him, ſo at this time I ſay no more, but leave you to God, and the Word of his grace, who is able to build you up, and to give an inheritance a<g ref="char:EOLhyphen"/>mong all them that are ſanctified;</p>
+               <closer>
+                  <signed>Your loving brother in Chriſt. <hi>P. H.</hi>
+                  </signed>
+               </closer>
+            </div>
+            <div type="letter">
+               <p>DEar friend, and brother in Chriſt, my indeared love preſented to you, giving to you thanks for all your love to
+<pb n="74" facs="tcp:119372:41"/>me: this is to put you in minde of your promiſe in ſending me a leter, in the letter I beſeech you give me an anſwer to theſe four queſtions.
+<list>
+                     <item>
+                        <hi>1. Is a Chriſtian freed from the morall Law yea, or no?</hi>
+                     </item>
+                     <item>
+                        <hi>2. Whether a Chriſtian tempted to ſin, ſhould ſtrive againſt ſin, yea or no.</hi>
+                     </item>
+                     <item>
+                        <hi>3. Whether ſanctification can evi<g ref="char:EOLhyphen"/>dence juſtification, when juſtification lies darke.</hi>
+                     </item>
+                     <item>
+                        <hi>4. How ſhall a poor ſoul that hath not the witneſſe of the ſpirit, nor can<g ref="char:EOLhyphen"/>not ſe any goodneſſe it ſelfe, how I ſay ſhall ſuch a ſoul take comfort? or on what foundation ſhall we tender com<g ref="char:EOLhyphen"/>fort to ſuch a ſoul.</hi>
+                     </item>
+                  </list>
+               </p>
+            </div>
+            <div type="letter">
+               <p>Dear friend, I pray fail not to give me an anſwer, I long to ſpeak with you, that I may tell you how abundantly my ſoul is overcome by God, and findes ſweet content in God, ſince I have had a diſcoverie of free Grace: Which Doctrine I was not onely ignorant of, but oppofite unto, till I by the love of it, was fetched into it, and I now ſee it is not a Doctrine of looſeneſſe; but if any thing indeares a ſoul to God, and makes a ſoul able to bring forth fruit to God, then it is to know God in the way of
+<pb n="75" facs="tcp:119372:41"/>his love. O that the world did but know what the Saints do injoy in this way, then the pulpits would not be ſo full of Calum<g ref="char:EOLhyphen"/>nies, and the preſſe ſo full of reproaches, againſt the doctrine of free grace, as now they be, ſo in hast, I reſt, leaving you to God.</p>
+               <closer>
+                  <signed>Your dear friend in Chriſt. <hi>M. W.</hi>
+                  </signed>
+               </closer>
+            </div>
+            <div type="letter">
+               <opener>
+                  <salute>DEAR FRIEND:</salute>
+               </opener>
+               <p>
+                  <hi>I</hi> Have received your letter; I rejoyce much to ſee and hear of the ſweet com<g ref="char:EOLhyphen"/>mings in of Chriſt: I deſire to bleſſe God in your behalfe, and for your queſtions, <hi>I</hi> have here ſent you an anſwer according to my ſmall ability, as God hath given in unto me.</p>
+               <closer>
+                  <salute>Vale.</salute>
+               </closer>
+            </div>
+            <div type="questions">
+               <head>Four Queſtions anſwered.</head>
+               <p n="1">
+                  <label>1. Queſtion.</label> 
+                  <hi>IS a Chriſtian freed from the Morall Law, yea or no?</hi>
+               </p>
+               <p>
+                  <label>Anſw.</label> Without all queſtion a
+<pb n="76" facs="tcp:119372:42"/>Chriſtian is thus as it was held out by the hand of <hi>Moſes;</hi> and by that expreſ<g ref="char:EOLhyphen"/>ſion, I mean,<note place="margin">Rom. 7.4. Rom. 10. 2 Cor. 3.11. Heb. 8.13.</note> as it was a Covenant of workes: and ſo a Law where God did declare himſelf a God over us, and not a God for us, except we were for him; and ſo we are not under the Law, but as it is handed to us in a Chriſt: By that I mean, as it is made known to us in a covenant of grace, in which cove<g ref="char:EOLhyphen"/>nant of grace, in which covenant God doth engage himſelf to do by us, what in the other covenant and Law hee re<g ref="char:EOLhyphen"/>quired of us;<note place="margin">Ier. 33.8. Heb. 8.10.</note> So that the materials of the Law are not deſtroyed, but much exalted: for now it is not only a duty, but a high priviledge, to work and to walk by the power of God to acknow<g ref="char:EOLhyphen"/>ledge God: and ſo we do not go about to deſtroy the matter of the Law, but the old obligement of the Law, was <hi>do and live.</hi> But now wee are to do be<g ref="char:EOLhyphen"/>cauſe we live, we are not to do for love, but to acknowledge love from the po<g ref="char:EOLhyphen"/>wer of the incomes of it ſelf, which is in God for us, which freely runs out from God to us, without reference to any thing in us, but to produce in us whatſoever is required of us.</p>
+               <pb n="77" facs="tcp:119372:42"/>
+               <p>If any one now object and ſay, this is to lay aſide all duty, and live as we liſt?</p>
+               <p>To this I anſwer, this is not ſo; for love en<g ref="char:EOLhyphen"/>joyed, ties and indeares more then love ſuppo<g ref="char:EOLhyphen"/>ſed: but I know, thoſe that are not by God ga<g ref="char:EOLhyphen"/>thered up into the boſome of God, and ſo made able to underſtand the nature of love, within the limits of its own light, they wil, they cannot chuſe, but ſo judge. For men judge of a thing, according to the nature of that light in which they live: I ſay no more of that.</p>
+               <p>
+                  <label>
+                     <hi>Q.</hi> 2.</label> 
+                  <hi>Whether a Chriſtian tempted to ſin, ſhould ſtrive againſt ſin, yea or no?</hi>
+               </p>
+               <p>
+                  <label>Anſw.</label> To which I anſwer, that it is our du<g ref="char:EOLhyphen"/>ty but not our ability: The alteration of the covenant doth deſtroy duty, but layes it upon a higher power; therfore the Apoſtle <hi>Phil.</hi> 2.12, 13. in all his exhortations, drawes forth duties from the power of priviledges, as thus: Seeing we have theſe promiſes, let us cleanſe our ſelves, &amp;c. And the grace of God which brings ſal<g ref="char:EOLhyphen"/>vation, teach us to deny ungodlineſſe, &amp;c.</p>
+               <p>Dear friend, I may ſtrive, and ſin in ſtriving; there is a way of ſtriving, which its our privi<g ref="char:EOLhyphen"/>ledge to be acting in: but if ſelfe ſtrive againſt ſelfe and ſin, we are more wreſtled into ſelfe and ſin. Or when ſelfe by the terrours of the old covenant, goes about to lay down ſelf, by ſuch layings down: Or when I ſtrive from ſuch
+<pb n="78" facs="tcp:119372:43"/>a light as is gathered up, which light preſents God as ſet againſt me, and to be altered by ſom<g ref="char:EOLhyphen"/>thing done by me; this is again to returne to Egypt, and to live upon a covenant of works, and ſo we may ſin in ſtriving againſt ſin: For though the worke, as a work be approved on by God, yet the way in the work, is alto<g ref="char:EOLhyphen"/>gether contrary to the minde of God: But when we by the power of God do ſtrive againſt ſinne, which is againſt God, the more I ſtrive in this way, the better it is; and I count it not onely a duty, but a high priviledge: the Lord make you and I thus to know God, that by that light we may be carried out to live upon God, and to God, in all our actions. For dear friend, you know that ſin is not made leſſe, but a great deal the more unlovely, by the apprehending of God in the light of his own love.</p>
+               <p>Let men ſay what they will, this I know, that a man is not truly Chriſtianized, and really cru<g ref="char:EOLhyphen"/>cified to ſin, till he ſee a higher good and ex<g ref="char:EOLhyphen"/>cellencie in God preſented to him, and for him, then he can poſſibly ſee in any way of ſinne; So much in anſwer to that.</p>
+               <p>
+                  <label>Queſt. 3.</label> 
+                  <hi>Whether Sanctification can evi<g ref="char:EOLhyphen"/>dence juſtification, when juſtification lies darke?</hi>
+               </p>
+               <p>
+                  <label>Anſ.</label> If the queſtion be ſo, I anſwer it doth not; for if I queſtion the acceptation of my perſon, I
+<pb n="79" facs="tcp:119372:43"/>muſt needs queſtion ſo farre the acceptation of my actions: For (<hi>Gen.</hi> 4.4.) <hi>Abel</hi> beleeved the acceptation of his perſon, and ſo of his ſacrifice. Therfore for me to go about to anſwer a doubt<g ref="char:EOLhyphen"/>full juſtification, by a doubtfull ſanctification, is to anſwer a doubt by a doubtfull thing; whereas the doubtfulneſſe of the thing anſwe<g ref="char:EOLhyphen"/>ring, ariſes from the doubtfulneſſe of the thing to be anſwered: and how impoſſible and un<g ref="char:EOLhyphen"/>comfortable this is, I leave you to judge, which I am confident have otherwiſe learned Chriſt. Beſides acts of ſanctification as bare acts, they ſay do not evidence it, but as ſanctified acts; for ſay they, love as a bare act doth not evidence; but as an act riſing from a right principle, which principle is the diſcoverie of Gods love to me, which diſcoverie produces in me love to himſelf; Now do but take notice of this ſeri<g ref="char:EOLhyphen"/>ouſly: I may not look upon my love, as evi<g ref="char:EOLhyphen"/>dencing further then it ariſes from Gods love to me diſcovered: So then when there is no diſcoverie of Gods love to me, I cannot look upon my love as an Evidencing love, further then it ariſes from Gods love to me; therefore by their own argument, love cannot make out to me a propertie in Gods love, when Gods love is hid and not made manifeſt to me by a foregoing witneſſe of the Spirit: And ſo ſanc<g ref="char:EOLhyphen"/>tification is not nor cannot be an evidence of
+<pb n="80" facs="tcp:119372:44"/>juſtification, when juſtification lies dark. There<g ref="char:EOLhyphen"/>fore thoſe Scriptures in the Epiſtle of <hi>Iohn,</hi> (1 <hi>Ioh.</hi> 3.14.) and elſewhere, are not to be un<g ref="char:EOLhyphen"/>derſtood as firſt, but ſecond evidences.</p>
+               <p>But it may be objected, if the witneſſe of the ſpirit muſt go firſt, this is a fooliſh thing, for it is but to light a candle to look upon the Sun.</p>
+               <p>To which I anſwer; which is the greateſt fol<g ref="char:EOLhyphen"/>ly, for a man to light a candle to look upon the Sun? Or for a man to light a candle to look for his eyes when he hath loſt them, judge you?</p>
+               <p>If you ask me whether there be much danger in preaching &amp; preſsing men to beleeve in God, according to their meaſure of love, and not to preſſe them to believe a proprietie in love, though they cannot love, that ſo they may love; to this anſwer.</p>
+               <p>For men to preach, and preſſe men to beleeve a propriety in God according to their meaſure of love, and not preſſe them to beleeve, though they do not love, that they may love; This is to reduce them again to a covenant of workes: So to preach, and hear, is very dangerous.</p>
+               <p>
+                  <label>Queſt. 4.</label> 
+                  <hi>If this be ſo; How ſhall a poore ſoul that hath not the witneſſe of the Spirit, nor can ſee any goodneſſe in it ſelf: How I ſay, ſhall ſuch a ſoul take comfort, or on what foundation ſhall we tender comfort to ſuch a ſoul?</hi>
+               </p>
+               <p>
+                  <label>Anſw.</label> To which I anſwer, that the foun<g ref="char:EOLhyphen"/>dation
+<pb n="81" facs="tcp:119372:44"/>on wch I am to tender ſuch ſouls comfort, is not the actings of God in them, but the un<g ref="char:EOLhyphen"/>changable diſpoſition of himſelf for them, which runs out to them, without reference to any good in them; but to produce in them whatſoever God required of them, and this foundation is held out to them in the Goſpell, where God offers from himſelf, a free God, a ful Chriſt, to a nothing crea<g ref="char:EOLhyphen"/>ture; &amp; if the promiſe of Salvation and Juſtifica<g ref="char:EOLhyphen"/>tion, had been tendred to us, as a looking upon ſome qualification in us, and not bringing in the bowels of it a power to produce all qualifi<g ref="char:EOLhyphen"/>cations in us; it had not been free, but ſtill a covenant of works, but it is free, therefore there is a great deal of comfort to poor ſouls, although they be nothing, yet there is warrant to beleeve they may be ſomething; Though they cannot do, yet there is ground to beleeve; that ſo be<g ref="char:EOLhyphen"/>leeving, they may do; and further know that this foundation is not laid for me to reſt upon, when I can do, but a foundation to reſt upon, to recover me when I am faln through infirmitie and cannot do, that ſo through believing, I may enjoy power to do; and this is a great comfort, therfore a want of power to do, though it be matter of grief, yet it is no ground of diſ<g ref="char:EOLhyphen"/>couragement to keep us from believing, but ra<g ref="char:EOLhyphen"/>ther an incouragement to believe the more; this I ſpeak not to declare any ability in the crea<g ref="char:EOLhyphen"/>ture
+<pb n="82" facs="tcp:119372:45"/>to believe, but the warrantableneſſe of a poor ſoul believing, though it be thus and thus with them, as before ſaid.</p>
+               <p>Thus having given yea a brief anſwer to your Queries, I leave you to the teachings of the truth, which is able ſo to make forth it ſelf to us, as to diſcover what is to be eyed in it, and obſerved from it, and to that truth I leave you. And reſt;</p>
+               <closer>
+                  <signed>Your friend and brother in <hi>CHRIST. P. H.</hi>
+                  </signed>
+               </closer>
+            </div>
+            <trailer>FJNJS.</trailer>
+            <pb facs="tcp:119372:45"/>
+         </div>
+      </body>
+   </text>
+</TEI>
